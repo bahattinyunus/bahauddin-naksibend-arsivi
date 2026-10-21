@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Şah-ı Nakşibend Arşivi | Peygamberî Bir Mirasın İzi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-deep: #0b1311;
+      --bg-card: #12201c;
+      --bg-card-hover: #182b25;
+      --gold: #d4af37;
+      --gold-light: #f1d57a;
+      --gold-dim: rgba(212, 175, 55, 0.22);
+      --emerald: #1b4d3e;
+      --crimson: #800020;
+      --text-main: #f3efe6;
+      --text-muted: #b8b2a3;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-deep);
+      background-image:
+        radial-gradient(circle at 15% 15%, rgba(27, 77, 62, 0.35), transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(212, 175, 55, 0.12), transparent 45%);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      line-height: 1.75;
+    }
+    header {
+      text-align: center;
+      padding: 4.5rem 1.5rem 3.5rem;
+      border-bottom: 1px solid var(--gold-dim);
+      position: relative;
+    }
+    .bismillah {
+      font-family: 'Cormorant Garamond', serif;
+      color: var(--gold);
+      font-size: 1.35rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      color: var(--gold-light);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 0.75rem;
+    }
+    .subtitle {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+      color: var(--text-muted);
+      max-width: 780px;
+      margin: 0 auto 1.75rem;
+    }
+    .hero-quote {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.25rem 1.75rem;
+      background: rgba(18, 32, 28, 0.85);
+      border-left: 3px solid var(--gold);
+      border-right: 3px solid var(--gold);
+      border-radius: 8px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      color: var(--text-main);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+      padding: 1.25rem;
+      background: rgba(11, 19, 17, 0.92);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      border-bottom: 1px solid var(--gold-dim);
+      backdrop-filter: blur(10px);
+    }
+    nav button {
+      background: var(--bg-card);
+      color: var(--text-main);
+      border: 1px solid var(--gold-dim);
+      padding: 0.6rem 1.15rem;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 0.92rem;
+      font-weight: 600;
+      transition: all 0.22s ease;
+    }
+    nav button:hover, nav button.active {
+      background: var(--gold);
+      color: #0b1311;
+      border-color: var(--gold-light);
+      transform: translateY(-1px);
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 5rem;
+    }
+    .tab-section { display: none; animation: fadeIn 0.35s ease; }
+    .tab-section.active { display: block; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      color: var(--gold-light);
+      margin-bottom: 1.2rem;
+      border-bottom: 1px solid var(--gold-dim);
+      padding-bottom: 0.45rem;
+    }
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.55rem;
+      color: var(--gold);
+      margin: 1.5rem 0 0.65rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.25rem;
+    }
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--gold-dim);
+      border-radius: 12px;
+      padding: 1.4rem;
+      transition: all 0.25s ease;
+    }
+    .card:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--gold);
+      transform: translateY(-3px);
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.65rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      border-radius: 99px;
+      background: rgba(212, 175, 55, 0.16);
+      color: var(--gold-light);
+      margin-bottom: 0.6rem;
+    }
+    blockquote {
+      margin: 1.15rem 0;
+      padding: 1rem 1.35rem;
+      background: rgba(212, 175, 55, 0.07);
+      border-left: 3px solid var(--gold);
+      border-radius: 0 8px 8px 0;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-style: italic;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0;
+      background: var(--bg-card);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--gold-dim);
+    }
+    th, td {
+      padding: 0.9rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid var(--gold-dim);
+    }
+    th {
+      background: rgba(212, 175, 55, 0.15);
+      color: var(--gold-light);
+      font-weight: 600;
+    }
+    .search-bar {
+      width: 100%;
+      padding: 0.85rem 1.2rem;
+      border-radius: 10px;
+      border: 1px solid var(--gold-dim);
+      background: var(--bg-card);
+      color: var(--text-main);
+      font-size: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      border-top: 1px solid var(--gold-dim);
+      color: var(--text-muted);
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="bismillah">Kasr-ı Ârifân • Buhârâ-yı Şerîf (718/1318 – 791/1389)</div>
+  <h1>Şah-ı Nakşibend Muhammed Bahaüddin Arşivi</h1>
+  <p class="subtitle">Peygamberî Bir Mirasın İzi: Şah-ı Nakşibend Hazretleri ve Gönül Düsturları</p>
+  <div class="hero-quote">
+    “Velilerden bir ordu kurulsa ve bunların başbuğlarından da ayrı bir ordu kurulsa hepsinin komutanı Şah-ı Nakşibend olur.”
+    <br><span style="font-size:0.95rem; color:var(--gold);">— Necip Fazıl Kısakürek</span>
+  </div>
+</header>
+
+<nav>
+  <button class="active" onclick="showTab('kulliyat', this)">📜 Ana Metin & Gönül Düsturları</button>
+  <button onclick="showTab('kelimat', this)">🏛️ 11 Kelimât-ı Kudsiyye</button>
+  <button onclick="showTab('silsile', this)">⛓️ Silsile-i Zeheb (Altın Silsile)</button>
+  <button onclick="showTab('sozler', this)">💎 Hikmet Damlaları & Halifeleri</button>
+</nav>
+
+<main>
+  <!-- TAB 1: ANA METİN -->
+  <section id="kulliyat" class="tab-section active">
+    <h2>1. Gönüller Sultanı Şah-ı Nakşibend ve Aşkın Çekim Gücü</h2>
+    <p>Tasavvuf tarihinde pek çok büyük veli <em>"şeyh"</em> veya <em>"pir"</em> unvanıyla anılırken, o manevi tahtın yegâne sahibi gibi <strong>"Şah"</strong> ismiyle yad edilmiştir. Bu derin çekim gücünün sırrı Doğu hikmetinin en temel ilkelerinden birinde saklıdır: <strong>"Güzele karşı güzel sevilir."</strong></p>
+    <p style="margin-top:0.8rem;">Hakiki güzelliğin bir formülü, şablonu ya da mantıksal bir izahı yoktur; o <strong>biçunsuz ve biçeradır</strong> (niçinsiz ve nedensizdir). Nitekim Hz. Yusuf (a.s.) pazar meydanında göründüğünde, onun yüzündeki ilahi tecelliye kapılan kadınlar ellerindeki bıçaklarla parmaklarını doğramış ve <em>"Bu bir insan olamaz, ancak kerim bir melektir"</em> diyerek kendilerinden geçmişlerdi. İşte Şah-ı Nakşibend Hazretleri’nin gönüllerde uyandırdığı o sönmez muhabbet, Cenâb-ı Hakk’ın onun şahsında tecelli ettirdiği bu "biçun" ilahi güzelliğin ve feyzin bir yansımasıdır.</p>
+
+    <h3>Buhara-yı Şerif, Hafız-ı Şirazi ve Emir Timur</h3>
+    <p>Fars şiirinin üstadı <strong>Hafız-ı Şirazi</strong>, Şirazlı sevgilisinin yüzündeki tek bir ben uğruna Semerkant ve Buhara’yı feda edebileceğini söyler. Yıllar sonra <strong>Timur</strong> bu coğrafyayı fethedip Hafız’ı huzuruna getirttiğinde hiddetle sorar: <em>"Benim imar etmek için ömrümü verdiğim Semerkant ve Buhara’yı sen bir ben uğruna nasıl feda edersin?"</em> Hafız-ı Şirazi tebessüm eder: <strong>"Sultanım, işte böyle bol keseden harcamak bizi bu perişan hale getirdi..."</strong></p>
+
+    <h2 style="margin-top:2.2rem;">2. Peygamberî Veraset: Fiziki ve Manevi Benzerlik</h2>
+    <p>Şah-ı Nakşibend Hazretleri, Hz. Peygamber’in (s.a.v.) mübarek soyundan gelen bir <strong>Seyyid</strong>’dir ve tipolojik/fiziki olarak da Allah Resulü’ne (s.a.v.) en çok benzeyen veli kabul edilir.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Büyük Veli</th>
+          <th>İrsiyet Yoluyla Tezahür Eden Özellik / Keramet</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Abdülkadir Geylani Hazretleri</strong></td>
+          <td>Hem Hasanî hem Hüseynî nesebinden Seyyiddir. Hz. Peygamber’e (s.a.v.) sinek ve toz konmaması mucizesi, en kavurucu çöl yolculuklarında dahi üzerine hiç toz ve sinek konmaması şeklinde kendisinde keramet olarak görülmüştür.</td>
+        </tr>
+        <tr>
+          <td><strong>Şah-ı Nakşibend Hazretleri</strong></td>
+          <td>Peygamber soyundan gelen Seyyiddir. 17 yaşında dergahta ekmek pişirirken elinin değdiği hamurların ateşte pişmemesi ve mürşidinin emriyle tandıra elini soktuğunda alevlerin geri çekilmesi şeklinde irsiyet tezahür etmiştir.</td>
+        </tr>
+      </tbody>
+    </table>
+    <blockquote>"O, Dedesi Peygamber'in soyundandır. Ceddinden bir veraset olarak onun elinin değdiği şeyi ateş yakmaz." — Muhammed Baba Semmasi (k.s.)</blockquote>
+
+    <h2 style="margin-top:2.2rem;">3. Tevazu, İki Temel Düstur ve Hakiki Keramet</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="badge">Düstur 1 • Halvet der-Encümen</span>
+        <h3>"El kârda, gönül yârda"</h3>
+        <p>Bedenen çarşıda, pazarda, işte veya ticarette çalışırken kalbin kesintisiz bir biçimde Allah ile beraber olmasıdır. Buhara çarşısındaki genç kumaş tüccarı ve Bayezid-i Bestami’nin <em>"30 yıldır Allah'tan başkasıyla konuşmadım"</em> sırrıdır.</p>
+      </div>
+      <div class="card">
+        <span class="badge">Düstur 2 • Mahviyet & Melâmet</span>
+        <h3>"Eller yahşi ben yaman, eller buğday ben saman"</h3>
+        <p>Nefsi kınama, kendini herkesten aşağı görme ve yokluğa talip olma durağıdır. "Saman" olmayı ve yokluğu kabul etmeyenler, ilahi azametle bezenemezler.</p>
+      </div>
+      <div class="card">
+        <span class="badge">Hakiki Keramet</span>
+        <h3>"Bundan Büyük Keramet mi Olur?"</h3>
+        <p>"Bu kadar günahla ayakta duruyoruz, bundan büyük keramet mi olur?" diyerek kerameti olağanüstü hallerde değil, Sünnet-i Seniyye üzere istikamette göstermiştir.</p>
+      </div>
+    </div>
+
+    <h2 style="margin-top:2.2rem;">4. Yokluğa Talip Olmak: Sonsuzluk Kervanı</h2>
+    <blockquote>
+      "Sonsuzluk Kervanı, peşinizde ben,<br>
+      Üç ayakla seken topal köpeğim.<br>
+      Bastığınız yerleri taş taş öpeyim,<br>
+      Bir kırıntı yeter kereminizden..."<br>
+      <span style="font-size:0.95rem; color:var(--gold);">— Necip Fazıl Kısakürek</span>
+    </blockquote>
+  </section>
+
+  <!-- TAB 2: 11 KELİMAT-I KUDSİYYE -->
+  <section id="kelimat" class="tab-section">
+    <h2>Tarikatın 11 Temel Prensibi (Kelimât-ı Kudsiyye)</h2>
+    <p>İlk sekizi <strong>Abdülhâlık Gucdüvânî (k.s.)</strong> Hazretleri’ne ait olan, son üçü (Üç Vukûf) ise <strong>Şah-ı Nakşibend (k.s.)</strong> tarafından eklenen 11 altın düstur:</p>
+    <div class="grid" id="kelimatGrid"></div>
+  </section>
+
+  <!-- TAB 3: SİLSİLE-İ ZEHEB -->
+  <section id="silsile" class="tab-section">
+    <h2>Silsile-i Zeheb (Altın Silsile)</h2>
+    <input type="text" class="search-bar" placeholder="Silsile halkalarında isim, şehir veya dönem ara..." oninput="filterSilsile(this.value)" />
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Büyük Veli / Halka</th>
+          <th>Vefat (H/M)</th>
+          <th>Türbesi / Medfun Olduğu Yer</th>
+          <th>Kol / Dönem</th>
+        </tr>
+      </thead>
+      <tbody id="silsileBody"></tbody>
+    </table>
+  </section>
+
+  <!-- TAB 4: HİKMET DAMLALARI -->
+  <section id="sozler" class="tab-section">
+    <h2>Yetiştirdiği Büyük Halifeler ve Gönül Yıldızları</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="badge">Halife 1</span>
+        <h3>Alaaddin Attâr (k.s.)</h3>
+        <p>12 yaşında servetini terk eden şehzade. Buhara pazarında elma satarken eski komşularının pencerelerini kapattığını söylediğinde Şah-ı Nakşibend: <strong>"Keşke senin ne sattığını bilseydiler Alaaddin!"</strong> buyurmuştur.</p>
+      </div>
+      <div class="card">
+        <span class="badge">Halife 2</span>
+        <h3>Yakûb-i Çerhî (k.s.)</h3>
+        <p>60 beyitlik kaside ile gelen büyük hadis âlimi. <em>"Allah sevdiği kulunu insanlar arasında da aziz kılar"</em> hadisiyle teslimiyetini arz etmiş ve Ubeydullah Ahrâr’ı yetiştirmiştir.</p>
+      </div>
+      <div class="card">
+        <span class="badge">Halife 3</span>
+        <h3>Ubeydullah Ahrâr (k.s.)</h3>
+        <p>Silsile-i Aliyye’nin meşalesini Maveraünnehir’den Orta Asya’nın ve İslam dünyasının en ücra köşelerine taşıyan büyük kutup.</p>
+      </div>
+      <div class="card">
+        <span class="badge">Halife 4</span>
+        <h3>Muhammed Pârsâ (k.s.)</h3>
+        <p>Zahirî ve bâtınî ilimlerde derinleşmiş, <em>Risâle-i Kudsiyye</em> ve <em>Faslül-Hitâb</em> eserleriyle Hâcegân mirasını ölümsüzleştirmiş sütun.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>📜 <strong>Bahaüddin Nakşibend Arşivi (bahauddin-naksibend-arsivi)</strong> • Ne mutlu elini helal kazançtan çekmeyip gönlünü Hak’tan ayırmayanlara...</p>
+</footer>
+
+<script>
+  const kelimatData = [
+    { no: 1, title: "Hûş der-dem (هوش در دم)", author: "Abdülhâlık Gucdüvânî", desc: "Her nefeste uyanık olmak; alınan ve verilen her nefesi Allah'ın huzurundaymış gibi gafletten uzak alıp vermek." },
+    { no: 2, title: "Nazar ber-kadem (نظر بر قدم)", author: "Abdülhâlık Gucdüvânî", desc: "Yürürken gözün ayak ucunda olması. Hem tevazunun gereğidir hem de kalbin suretlerle dağılmasını engeller." },
+    { no: 3, title: "Sefer der-vatan (سفر در وطن)", author: "Abdülhâlık Gucdüvânî", desc: "Kötü huylardan, kibirden ve nefsaniyetten sıyrılarak güzel ahlaka ve Allah'a doğru yapılan içsel hicret." },
+    { no: 4, title: "Halvet der-encümen (خلوت در انجمن)", author: "Abdülhâlık Gucdüvânî", desc: "Zahirde halk ile, batında Hak ile beraber olmak ('El kârda, gönül yârda')." },
+    { no: 5, title: "Yâd kerd (ياد كرد)", author: "Abdülhâlık Gucdüvânî", desc: "Dili ve kalbi hafî (gizli) zikirle meşgul etmek, anmayı kalbin doğal atışı haline getirmek." },
+    { no: 6, title: "Bâz geşt (باز گشت)", author: "Abdülhâlık Gucdüvânî", desc: "Zikir esnasında 'İlâhî, ente maksûdî ve rızâke matlûbî' (Rabbim, gayem Sensin ve isteğim Senin rızandır) düşüncesine dönmek." },
+    { no: 7, title: "Nigâh dâşt (نگاه داشت)", author: "Abdülhâlık Gucdüvânî", desc: "Kalbe gelen yabancı düşünceleri (havâtır) anında kapı dışarı edip kalbi masivadan korumak." },
+    { no: 8, title: "Yâd dâşt (ياد داشت)", author: "Abdülhâlık Gucdüvânî", desc: "Her an, mekansız ve zamansız bir şekilde Allah'ın huzurunda olduğunun bilincinde (tam murakabe) olmak." },
+    { no: 9, title: "Vukûf-i zamânî (وقوف زمانى)", author: "Şah-ı Nakşibend", desc: "Zamanın nasıl geçtiğinin farkında olmak; huzurla geçtiyse şükretmek, gafletle geçtiyse istiğfar etmek." },
+    { no: 10, title: "Vukûf-i adedî (وقوف عددى)", author: "Şah-ı Nakşibend", desc: "Hafî zikirde tek sayıya riayet ederek kalbin dikkatini toplamasına yardımcı olmak." },
+    { no: 11, title: "Vukûf-i kalbî (وقوف قلبى)", author: "Şah-ı Nakşibend", desc: "Kalbin zikir anında bütünüyle Zikredilen'e (Allah'a) yönelmesi ve o noktada kilitlenmesi." }
+  ];
+
+  const silsileData = [
+    [1, "Hz. Muhammed Mustafa (s.a.v.)", "11 / 632", "Medine-i Münevvere", "Asr-ı Saadet"],
+    [2, "Hz. Ebû Bekir es-Sıddîk (r.a.)", "13 / 634", "Medine-i Münevvere", "Sıddîkiyye"],
+    [3, "Selmân-ı Fârisî (r.a.)", "36 / 656", "Medâin (Irak)", "Sıddîkiyye"],
+    [4, "Kâsım bin Muhammed (r.a.)", "107 / 725", "Kudeyd (Hicaz)", "Sıddîkiyye"],
+    [5, "İmam Cafer-i Sâdık (k.s.)", "148 / 765", "Medine (Cennetü'l-Baki)", "Mecmau'l-Bahreyn"],
+    [6, "Bâyezîd-i Bistâmî (k.s.)", "261 / 875", "Bistâm (Horasan)", "Tayfûriyye"],
+    [7, "Ebü’l-Hasan Harakânî (k.s.)", "425 / 1033", "Harakân", "Tayfûriyye"],
+    [8, "Ebû Ali Fârmedî (k.s.)", "477 / 1084", "Tûs (Horasan)", "Tayfûriyye"],
+    [9, "Hâce Yûsuf Hemedânî (k.s.)", "535 / 1140", "Merv", "Hâcegâniyye"],
+    [10, "Hâce Abdülhâlık Gucdüvânî (k.s.)", "575 / 1179", "Gucdüvân (Buhara)", "Hâcegâniyye"],
+    [11, "Hâce Ârif Rîvegerî (k.s.)", "616 / 1219", "Rîveger (Buhara)", "Hâcegâniyye"],
+    [12, "Hâce Mahmûd İncîr Fağnevî (k.s.)", "715 / 1315", "Vâbkent (Buhara)", "Hâcegâniyye"],
+    [13, "Hâce Ali Râmîtenî — Azîzân (k.s.)", "721 / 1321", "Köhne Ürgenç (Hârezm)", "Hâcegâniyye"],
+    [14, "Hâce Muhammed Baba Semmâsî (k.s.)", "755 / 1354", "Semmâs (Buhara)", "Hâcegâniyye"],
+    [15, "Seyyid Emîr Külâl (k.s.)", "772 / 1370", "Sûhârî (Buhara)", "Hâcegâniyye"],
+    [16, "Şah-ı Nakşibend Muhammed Bahaüddin (k.s.)", "791 / 1389", "Kasr-ı Ârifân (Buhara)", "Nakşibendiyye"],
+    [17, "Hâce Alaaddin Attâr (k.s.)", "802 / 1400", "Çağâniyân (Denav)", "Nakşibendiyye"],
+    [18, "Mevlânâ Yakûb-i Çerhî (k.s.)", "851 / 1447", "Duşanbe (Tacikistan)", "Nakşibendiyye"],
+    [19, "Hâce Ubeydullah Ahrâr (k.s.)", "895 / 1490", "Semerkant", "Ahrâriyye"],
+    [24, "İmam-ı Rabbânî Ahmed Fârûkî Serhendî (k.s.)", "1034 / 1624", "Serhend (Hindistan)", "Müceddidiyye"],
+    [30, "Mevlânâ Hâlid-i Bağdâdî (k.s.)", "1242 / 1827", "Şam-ı Şerif", "Hâlidiyye"]
+  ];
+
+  const kelimatGrid = document.getElementById('kelimatGrid');
+  kelimatData.forEach(item => {
+    kelimatGrid.innerHTML += `
+      <div class="card">
+        <span class="badge">${item.no}. Esas • ${item.author}</span>
+        <h3>${item.title}</h3>
+        <p>${item.desc}</p>
+      </div>
+    `;
+  });
+
+  function renderSilsile(rows) {
+    const tbody = document.getElementById('silsileBody');
+    tbody.innerHTML = rows.map(r => `
+      <tr>
+        <td><strong>${r[0]}</strong></td>
+        <td><strong>${r[1]}</strong></td>
+        <td>${r[2]}</td>
+        <td>${r[3]}</td>
+        <td><span class="badge" style="margin:0">${r[4]}</span></td>
+      </tr>
+    `).join('');
+  }
+  renderSilsile(silsileData);
+
+  function filterSilsile(q) {
+    const term = q.toLowerCase();
+    renderSilsile(silsileData.filter(r => r.some(cell => String(cell).toLowerCase().includes(term))));
+  }
+
+  function showTab(id, btn) {
+    document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+</body>
+</html>
