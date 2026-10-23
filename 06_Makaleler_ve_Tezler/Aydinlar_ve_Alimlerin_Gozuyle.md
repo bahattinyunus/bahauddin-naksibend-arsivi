@@ -1,5 +1,7 @@
 # 🖋️ Âlimler, Mütefekkirler ve Aydınların Gözüyle Şah-ı Nakşibend Hazretleri
 
+![Semerkant ve Buhara İlim ve İrfan Gecesi](../assets/semerkand-buhara-ilim-gecesi.jpg)
+
 Asırlar boyunca İslam dünyasının en büyük âlimleri, arifleri, şairleri ile Türk-İslam düşünce hayatının öncü mütefekkir ve aydınları, **Şah-ı Nakşibend Muhammed Bahaüddin el-Buhârî (k.s.)** Hazretleri’nin şahsiyeti, Sünnet-i Seniyye hassasiyeti ve *"El kârda, gönül yârda"* medeniyet tasavvuru hakkında derin tespitlerde bulunmuşlardır.
 
 ---

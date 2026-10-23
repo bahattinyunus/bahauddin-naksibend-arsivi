@@ -1,5 +1,7 @@
 # 🧭 Seyr-ü Sülûk Dönemi, Mürşidleri ve Manaya Doğuş
 
+![Sonsuzluk Kervanı ve Sefer der-Vatan](../assets/sonsuzluk-kervani-mahviyet.jpg)
+
 > *"Bir insanın annesinden doğması yalnızca biyolojik bir başlangıçtır; asıl doğum, bir mürşid-i kâmil eliyle kalbin uyanması, yani **manaya doğuş**tur."*
 
 ---

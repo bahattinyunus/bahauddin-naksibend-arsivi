@@ -88,6 +88,13 @@ Bu fiziki verasete, manevi irsiyet de eşlik etmiştir. Peygamber Efendimiz’e 
 
 ### 🔥 Tandır (Tenur) Hadisesi ve Ceddinden Miras
 
+<div align="center">
+
+![Tandır Kerameti ve Buhara Dergâhı](./assets/tandir-kerameti-dergah.jpg)
+*17 Yaşında Dergâhta Hizmet ve Tandır (Tenur) Hadisesi — "Ceddinden bir veraset olarak onun elinin değdiği şeyi ateş yakmaz"*
+
+</div>
+
 Şah-ı Nakşibend henüz 17 yaşında bir delikanlı iken dergahta hizmet etmekte ve fırında (tandır/tenur) ekmek pişirmektedir. Herkes hazırladığı hamuru tandırın kızgın duvarına yapıştırıp pişirirken, Hazret’in yapıştırdığı hamurlar bir türlü pişmez, hamur kalır. Durum dergahın piri **Muhammed Baba Semmasi Hazretleri**’ne intikal ettirildiğinde, o büyük veli irsiyet hakikatini şu sözlerle açıklar:
 
 > *"O, Dedesi Peygamber'in soyundandır. Ceddinden bir veraset olarak onun elinin değdiği şeyi ateş yakmaz."*
@@ -308,6 +315,13 @@ flowchart LR
 
 ## 🖋️ Âlimler, Mütefekkirler ve Aydınların Gözüyle Şah-ı Nakşibend
 
+<div align="center">
+
+![Semerkant ve Buhara İlim ve İrfan Gecesi](./assets/semerkand-buhara-ilim-gecesi.jpg)
+*Semerkant ve Buhara-yı Şerif — Âlimlerin, Âriflerin ve Mütefekkirlerin Gözüyle Şah-ı Nakşibend*
+
+</div>
+
 Asırlar boyunca İslam dünyasının en büyük âlimleri, arifleri ve şairleri ile Türk-İslam düşünce hayatının öncü mütefekkir ve aydınları, **Şah-ı Nakşibend Hazretleri**’nin büyüklüğünü, Sünnet-i Seniyye hassasiyetini ve *"El kârda, gönül yârda"* medeniyet tezini şu sözlerle ifade etmişlerdir *(tam derleme için bkz. [`06_Makaleler_ve_Tezler/Aydinlar_ve_Alimlerin_Gozuyle.md`](./06_Makaleler_ve_Tezler/Aydinlar_ve_Alimlerin_Gozuyle.md))*:
 
 ### 🏛️ Klasik Dönem Âlim, Şair ve Kutubları
@@ -351,6 +365,13 @@ Asırlar boyunca İslam dünyasının en büyük âlimleri, arifleri ve şairler
 ---
 
 ## 🕯️ 7. Sonuç: Yokluğa Talip Olmak ve Kalbe Düşen Hikmet
+
+<div align="center">
+
+![Sonsuzluk Kervanı ve Mahviyet](./assets/sonsuzluk-kervani-mahviyet.jpg)
+*"Sonsuzluk Kervanı, peşinizde ben..." — Yokluğa Talip Olmak ve Manaya Doğuş*
+
+</div>
 
 Bugün her birimiz modern dünyada sürekli var olmaya, bir unvan kazanmaya, kendimizi tanıtmaya ve alkışlanmaya çalışıyoruz. Oysa Şah-ı Nakşibend Hazretleri’nin hayatı ve bıraktığı miras, bize bambaşka bir kapı aralıyor: **Var olmaya çalışmayı bırakıp yokluğa talip olmak.**
 
@@ -406,6 +427,9 @@ bahauddin-naksibend-arsivi/
 │   ├── kasr-i-arifan-buhara.jpg            # Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi Görseli
 │   ├── el-karda-gonul-yarda.jpg            # "El Kârda, Gönül Yârda" Buhara Çarşısı Görseli
 │   ├── altin-silsile-tezhip.jpg            # Silsile-i Zeheb (Altın Silsile) Tezhip Sanat Görseli
+│   ├── tandir-kerameti-dergah.jpg          # 17 Yaşındaki Tandır (Tenur) Kerameti ve Dergâh Görseli
+│   ├── semerkand-buhara-ilim-gecesi.jpg    # Semerkant ve Buhara İlim-İrfan Gecesi Görseli
+│   ├── sonsuzluk-kervani-mahviyet.jpg      # "Sonsuzluk Kervanı" ve Sefer der-Vatan Görseli
 │   ├── hero-banner.svg                     # Şah-ı Nakşibend & Kasr-ı Ârifân Tezhip Kapak Görseli
 │   ├── kelimat-i-kudsiyye.svg              # 11 Kelimât-ı Kudsiyye Görsel Tablosu
 │   ├── silsile-i-zeheb.svg                 # Altın Silsile (Sıddîkî & Alevî Kollar) Mimari Şeması

@@ -1,5 +1,7 @@
 # 📜 Şah-ı Nakşibend Hazretleri’nin Vasiyetleri
 
+![Dergâh Hizmeti ve Tandır Hadisesi](../assets/tandir-kerameti-dergah.jpg)
+
 Şah-ı Nakşibend Hazretleri’nin vefatından önce müridlerine, halifelerine ve kıyamete kadar gelecek olan taliplere bıraktığı manevi vasiyetin ana maddeleri:
 
 ---
