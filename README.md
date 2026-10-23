@@ -34,8 +34,9 @@ Bu depo, İslam tasavvuf tarihinin en büyük köşe taşlarından biri olan; **
 9. [Gölgesinde Yetişen Yıldızlar: Yetiştirdiği Büyük Halifeler](#-6-gölgesinde-yetişen-yıldızlar-yetiştirdiği-büyük-halifeler)
 10. [Altın Silsile (Silsile-i Zeheb) ve Mimari Şeması](#-altın-silsile-silsile-i-zeheb)
 11. [Kronolojik Hayat Çizelgesi (1318–1389)](#-kronolojik-hayat-çizelgesi-7181318--7911389)
-12. [Sonuç: Yokluğa Talip Olmak ve Kalbe Düşen Hikmet](#-7-sonuç-yokluğa-talip-olmak-ve-kalbe-düşen-hikmet)
-13. [Depo Yapısı (Repository Structure)](#-depo-yapısı-repository-structure)
+12. [Âlimler, Mütefekkirler ve Aydınların Gözüyle Şah-ı Nakşibend](#-âlimler-mütefekkirler-ve-aydınların-gözüyle-şah-ı-nakşibend)
+13. [Sonuç: Yokluğa Talip Olmak ve Kalbe Düşen Hikmet](#-7-sonuç-yokluğa-talip-olmak-ve-kalbe-düşen-hikmet)
+14. [Depo Yapısı (Repository Structure)](#-depo-yapısı-repository-structure)
 
 ---
 
@@ -305,6 +306,50 @@ flowchart LR
 
 ---
 
+## 🖋️ Âlimler, Mütefekkirler ve Aydınların Gözüyle Şah-ı Nakşibend
+
+Asırlar boyunca İslam dünyasının en büyük âlimleri, arifleri ve şairleri ile Türk-İslam düşünce hayatının öncü mütefekkir ve aydınları, **Şah-ı Nakşibend Hazretleri**’nin büyüklüğünü, Sünnet-i Seniyye hassasiyetini ve *"El kârda, gönül yârda"* medeniyet tezini şu sözlerle ifade etmişlerdir *(tam derleme için bkz. [`06_Makaleler_ve_Tezler/Aydinlar_ve_Alimlerin_Gozuyle.md`](./06_Makaleler_ve_Tezler/Aydinlar_ve_Alimlerin_Gozuyle.md))*:
+
+### 🏛️ Klasik Dönem Âlim, Şair ve Kutubları
+
+* **İmam-ı Rabbânî Ahmed Fârûkî Serhendî (k.s.)** *(İkinci Bin Yılın Müceddidi — Mektûbât-ı Rabbânî)*:
+  > *"Hâce Bahaüddin Nakşibend (k.s.) Hazretleri’nin yolu, Ashâb-ı Kirâm’ın (r.anhüm) yolunun ta kendisidir. Diğer yollarda sülûkun en sonunda ulaşılan kalbî nispet ve huzur, onun bereketli yolunda daha ilk adımda (**indirâcü'n-nihâye fi'l-bidâye**) sohbetle ele geçer. O, Sünnet-i Seniyye’ye ittibada ve bid'atlerden kaçınmakta velayet ufkunun zirvesidir."*
+
+* **Mevlânâ Abdurrahman Câmî (k.s.)** *(XV. Asrın Büyük Âlimi, Mütefekkiri ve Şairi — Nefahâtü'l-Üns)*:
+  > *"Sikke-i merdân-ı Hudâ Nakşibend / Der dil-i mâ nakş-ı Hudâ Nakşibend."*  
+  > *(Allah erlerinin kalbine vurulan ilahi mühür Nakşibend’dir; bizim gönlümüze Allah’ın nakşını işleyen de Şah-ı Nakşibend’dir. O, kulluk ve mahviyet perdesi altında ilahi sırları gizleyen, zahirini halk ile bâtınını Hak ile süsleyen velayet şahıdır.)*
+
+* **Emîr Ali Şîr Nevâî** *(Türk Edebiyatının Büyük Şairi ve Devlet Adamı — Nesâyimü'l-Mahabbe)*:
+  > *"Hâce Bahaüddin Nakşibend, Türkistan ve Maveraünnehir semasının sönmez güneşi, ilahi aşk nakşını gönül levhasına vuranların şahıdır. Onun mübarek nefesiyle yalnız Buhara toprağı değil, bütün İslam âlemi yeniden dirilmiştir."*
+
+* **Mevlânâ Hâlid-i Bağdâdî (k.s.)** *(Hâlidiyye Kolunun Pîri ve Müceddid — Dîvân)*:
+  > *"Şah-ı Nakşibend, kalp aynasını masiva pasından temizleyip oraya Lafza-i Celâl’i nakşeden sultanımızdır. Onun kapısına baş koyan, doğrudan Sıddîk-ı Ekber’in (r.a.) ve Resûl-i Ekrem’in (s.a.v.) izine basmış olur."*
+
+### 📚 Çağdaş Mütefekkirler, Edebiyatçılar ve Akademisyenler
+
+* **Necip Fazıl Kısakürek** *(Şair ve Mütefekkir — Başbuğ Veliler)*:
+  > *"Velilerden bir ordu kurulsa ve bunların başbuğlarından da ayrı bir ordu kurulsa hepsinin komutanı Şah-ı Nakşibend olur. O, Peygamber Efendimiz’in (s.a.v.) bâtın nurunu Hz. Ebû Bekir kanalıyla süzüp kalplere nakşeden, tasavvufta sahte taşkınlıkları silip tam Şeriat ve Sünnet ölçüsünü (Urvetü'l-Vüskâ) hâkim kılan en büyük kutuptur."*
+
+* **Sezai Karakoç** *(Şair ve Mütefekkir — Diriliş Düşüncesi)*:
+  > *"Buhara ve Semerkant’tan yükselen Hâcegân ve Şah-ı Nakşibend ruhu, İslam medeniyetinin Moğol istilası gibi en ağır yıkımlardan sonra yeniden ayağa kalkışının manevi mimarı olmuştur. Onun 'El kârda, gönül yârda' ilkesi, İslam insanının hem dünyayı imar eden hem de kalbini sonsuzluğa bağlayan en sağlam medeniyet tezidir."*
+
+* **Nurettin Topçu** *(Ahlak Felsefecisi ve Mütefekkir)*:
+  > *"Hakiki tasavvuf, dünyadan kaçıp miskinleşmek değil; bilakis Şah-ı Nakşibend’in 'El kârda, gönül yârda' düsturunda ifadesini bulan, hareketin, emeğin ve çalışmanın tam kalbinde Allah ile beraber olma ahlakıdır."*
+
+* **Prof. Dr. Mahmud Es'ad Coşan** *(Akademisyen ve Mutasavvıf)*:
+  > *"Şah-ı Nakşibend Hazretleri, dervişliği köşeye çekilip halktan kopmak olmaktan çıkarmış; esnafın dükkânında, âlimin medresesinde, çiftçinin tarlasında her nefeste Allah’ı unutmayacak bir kalp uyanıklığı (hûş der-dem) mektebi kurmuştur."*
+
+* **Ord. Prof. Dr. M. Fuad Köprülü** *(Tarihçi — Türk Edebiyatında İlk Mutasavvıflar)*:
+  > *"Hoca Ahmed Yesevî ile başlayan Orta Asya tasavvuf geleneği, XIV. asırda Buhara’da Bahaeddin Nakşibend ile Sünnî-Şer'î istikametini en sağlam şekilde tahkim etmiş; Türkistan’dan Osmanlı Anadolu’suna ve Balkanlar’a kadar İslam kültür ve medeniyetinin manevi omurgasını oluşturmuştur."*
+
+* **Prof. Dr. Hamid Algar** *(Kaliforniya Üniversitesi / Berkeley — TDV İslâm Ansiklopedisi)*:
+  > *"Bahâeddin Nakşibend, İslam tarihinde tasavvufu Kur'an ve Sünnet disipliniyle en berrak şekilde bütünleştiren, gösterişli keramet beklentilerini reddederek içsel uyanıklığı (hûş der-dem) toplumsal sorumlulukla (halvet der-encümen) birleştiren eşsiz bir manevi ihya önderidir."*
+
+* **Prof. Dr. Necdet Tosun** *(Tasavvuf Tarihi Profesörü — Bahâeddîn Nakşbend)*:
+  > *"Bahâeddîn Nakşbend; tevazuu, halktan biri gibi sade yaşayışı, el emeğiyle geçinmeyi ve Sünnet-i Seniyye’ye titizlikle bağlılığı esas alarak tasavvuf tarihinde yeni bir çığır açmış; onun manevi mirası Orta Asya’dan Osmanlı’ya, Hindistan’dan Kafkasya’ya kadar üç kıtayı şekillendirmiştir."*
+
+---
+
 ## 🕯️ 7. Sonuç: Yokluğa Talip Olmak ve Kalbe Düşen Hikmet
 
 Bugün her birimiz modern dünyada sürekli var olmaya, bir unvan kazanmaya, kendimizi tanıtmaya ve alkışlanmaya çalışıyoruz. Oysa Şah-ı Nakşibend Hazretleri’nin hayatı ve bıraktığı miras, bize bambaşka bir kapı aralıyor: **Var olmaya çalışmayı bırakıp yokluğa talip olmak.**
@@ -353,7 +398,8 @@ bahauddin-naksibend-arsivi/
 │   ├── Evrad-i_Bahaeddin.md                # Evrâd-ı Bahâiyye, Risâle-i Kudsiyye ve zikir usulü
 │   └── Vasiyetleri.md                      # Manevi vasiyetleri ve Ehl-i Sünnet vurgusu
 ├── 06_Makaleler_ve_Tezler/     
-│   └── Akademik_Arastirmalar.md            # DİA maddeleri, doktora tezleri ve akademik monografiler
+│   ├── Akademik_Arastirmalar.md            # DİA maddeleri, doktora tezleri ve akademik monografiler
+│   └── Aydinlar_ve_Alimlerin_Gozuyle.md    # Âlimler, şairler ve mütefekkirlerin Şah-ı Nakşibend hakkındaki sözleri
 ├── 07_Kavramlar_Sozlugu/       
 │   └── Tasavvuf_ve_Hacegan_Istilahlari.md  # Biçun, Mahviyet, Melâmet, Üveysîlik vb. ıstılahlar sözlüğü
 ├── assets/                                 # Tezhip, minyatür ve mimari görseller (JPG & SVG)
