@@ -1,5 +1,7 @@
 # 🌿 Doğumu, Soyu ve Çocukluğu (Kasr-ı Ârifân)
 
+![Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi](../assets/kasr-i-arifan-buhara.jpg)
+
 > *"Buradan bir veli kokusu geliyor! Çok geçmez, bu Kasr-ı Hinduvân, bir erin bereketiyle Kasr-ı Ârifân (Arifler Köşkü) olur."*  
 > — **Hâce Muhammed Baba Semmâsî (k.s.)**
 

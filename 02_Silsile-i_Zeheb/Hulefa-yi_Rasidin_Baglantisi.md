@@ -1,5 +1,7 @@
 # 🔗 Hulefâ-yi Râşidîn Bağlantısı: Sıddîkî ve Alevî Kollar
 
+![Altın Silsile Tezhip Levhası](../assets/altin-silsile-tezhip.jpg)
+
 Nakşibendiyye silsilesi (**Silsile-i Zeheb / Altın Silsile**), Hz. Peygamber’e (s.a.v.) iki büyük kanaldan ulaşır. Bu iki nehir **İmam Cafer-i Sâdık (k.s.)** Hazretleri’nde birleşir:
 
 ---

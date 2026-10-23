@@ -1,5 +1,7 @@
 # 📖 Menkıbeler, Kıssalar ve İbretli Hadiseler
 
+![El Kârda Gönül Yârda — Buhara Çarşısı](../assets/el-karda-gonul-yarda.jpg)
+
 Şah-ı Nakşibend Muhammed Bahaüddin el-Buhârî (k.s.) Hazretleri’nin hayatından ve tasavvuf tarihinden gönüllere nakşedilen ibretli kıssalar:
 
 ---

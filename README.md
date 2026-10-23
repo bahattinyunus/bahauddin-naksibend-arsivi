@@ -59,6 +59,13 @@ Hafız-ı Şirazi ise tasavvuf tarihine geçen o zarif nüktesiyle tebessüm ede
 
 Uğruna krallıkların ve şehirlerin feda edildiği Buhara’nın kalbinde doğan Şah-ı Nakşibend Hazretleri, işte böyle bir manevi saltanatın kıtalara ulaşan ilahi nurudur.
 
+<div align="center">
+
+![Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi](./assets/kasr-i-arifan-buhara.jpg)
+*Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi — Gönül Sultanlarının Ocağı*
+
+</div>
+
 ---
 
 ## 🕊️ "Nakşibend" Ne Demektir?
@@ -156,6 +163,13 @@ flowchart TD
 
 ### Düstur 1: "El kârda, gönül yârda" (*Dil be-yâr, dest be-kâr / Dil be-kâr, dest be-kâr*)
 
+<div align="center">
+
+![El Kârda Gönül Yârda — Buhara Çarşısı](./assets/el-karda-gonul-yarda.jpg)
+*"El kârda, gönül yârda" (Dest be-kâr, dil be-yâr) — Buhara Çarşısında Halk İçinde Hak İle Olmak*
+
+</div>
+
 Bu kural, **"halk içinde Hak ile olmak"** (*halvet der-encümen*) anlayışıdır. Bedenen çarşıda, pazarda, işte veya ticarette çalışırken kalbin kesintisiz bir biçimde Allah ile beraber olmasıdır.
 
 Şah-ı Nakşibend Hazretleri Buhara çarşısında kumaş satan, ölçen, biçen, para alıp veren genç bir tüccarı izler. Sofilerine dönerek:
@@ -243,6 +257,9 @@ Onun yolu, Kur'an ve Sünnet'e kıl payı kadar dahi aykırı düşmemek üzerin
 ## 🔗 Altın Silsile (Silsile-i Zeheb)
 
 <div align="center">
+
+![Altın Silsile Tezhip Levhası](./assets/altin-silsile-tezhip.jpg)
+*Silsile-i Zeheb (Altın Silsile) — Tezhip ve Nur Ağacı*
 
 ![Silsile-i Zeheb — Altın Silsile Şeması](./assets/silsile-i-zeheb.svg)
 
@@ -339,7 +356,10 @@ bahauddin-naksibend-arsivi/
 │   └── Akademik_Arastirmalar.md            # DİA maddeleri, doktora tezleri ve akademik monografiler
 ├── 07_Kavramlar_Sozlugu/       
 │   └── Tasavvuf_ve_Hacegan_Istilahlari.md  # Biçun, Mahviyet, Melâmet, Üveysîlik vb. ıstılahlar sözlüğü
-├── assets/                                 # Tezhip, hat ve mimari infografik görselleri (SVG)
+├── assets/                                 # Tezhip, minyatür ve mimari görseller (JPG & SVG)
+│   ├── kasr-i-arifan-buhara.jpg            # Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi Görseli
+│   ├── el-karda-gonul-yarda.jpg            # "El Kârda, Gönül Yârda" Buhara Çarşısı Görseli
+│   ├── altin-silsile-tezhip.jpg            # Silsile-i Zeheb (Altın Silsile) Tezhip Sanat Görseli
 │   ├── hero-banner.svg                     # Şah-ı Nakşibend & Kasr-ı Ârifân Tezhip Kapak Görseli
 │   ├── kelimat-i-kudsiyye.svg              # 11 Kelimât-ı Kudsiyye Görsel Tablosu
 │   ├── silsile-i-zeheb.svg                 # Altın Silsile (Sıddîkî & Alevî Kollar) Mimari Şeması
