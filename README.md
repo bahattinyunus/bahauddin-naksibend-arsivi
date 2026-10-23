@@ -34,9 +34,11 @@ Bu depo, İslam tasavvuf tarihinin en büyük köşe taşlarından biri olan; **
 9. [Gölgesinde Yetişen Yıldızlar: Yetiştirdiği Büyük Halifeler](#-6-gölgesinde-yetişen-yıldızlar-yetiştirdiği-büyük-halifeler)
 10. [Altın Silsile (Silsile-i Zeheb) ve Mimari Şeması](#-altın-silsile-silsile-i-zeheb)
 11. [Kronolojik Hayat Çizelgesi (1318–1389)](#-kronolojik-hayat-çizelgesi-7181318--7911389)
-12. [Âlimler, Mütefekkirler ve Aydınların Gözüyle Şah-ı Nakşibend](#-âlimler-mütefekkirler-ve-aydınların-gözüyle-şah-ı-nakşibend)
-13. [Sonuç: Yokluğa Talip Olmak ve Kalbe Düşen Hikmet](#-7-sonuç-yokluğa-talip-olmak-ve-kalbe-düşen-hikmet)
-14. [Depo Yapısı (Repository Structure)](#-depo-yapısı-repository-structure)
+12. [Buhara’nın Yedi Pîri (Pîr-i Heftgâne) ve Helal Lokma Meslekleri](#-buharanın-yedi-pîri-pîr-i-heftgâne-ve-helal-lokma-meslekleri)
+13. [Anadolu ve Osmanlı Medeniyetinde Şah-ı Nakşibend Mirası](#-anadolu-ve-osmanlı-medeniyetinde-şah-ı-nakşibend-mirası)
+14. [Âlimler, Mütefekkirler ve Aydınların Gözüyle Şah-ı Nakşibend](#-âlimler-mütefekkirler-ve-aydınların-gözüyle-şah-ı-nakşibend)
+15. [Sonuç: Yokluğa Talip Olmak ve Kalbe Düşen Hikmet](#-7-sonuç-yokluğa-talip-olmak-ve-kalbe-düşen-hikmet)
+16. [Depo Yapısı ve CLI Arşiv Rehberi](#-depo-yapısı-repository-structure)
 
 ---
 
@@ -313,6 +315,30 @@ flowchart LR
 
 ---
 
+## 🕌 Buhara’nın Yedi Pîri (*Pîr-i Heftgâne*) ve Helal Lokma Meslekleri
+
+Buhara-yı Şerif’i **"Kubbetü'l-İslâm"** kılan en önemli manevi miras, bu coğrafyada medfun bulunan **Yedi Büyük Pîr (*Pîr-i Heftgâne*)** ve onların zirvesi olan **Şah-ı Nakşibend Hazretleri**’dir. Bu büyük velilerin hiçbiri şeyhlik üzerinden geçinmemiş; her biri bizzat alnının teriyle çalışarak *"El kârda, gönül yârda"* düsturunu yaşamıştır *(detaylı rehber için bkz. [`08_Buhara_ve_Maveraunnehir_Mirasi/Buhara_yi_Serif_Tarihi_ve_Yedi_Pir.md`](./08_Buhara_ve_Maveraunnehir_Mirasi/Buhara_yi_Serif_Tarihi_ve_Yedi_Pir.md))*:
+
+| Sıra | Büyük Pîr | Vefatı | Türbesi / Beldesi | El Emeği / Mesleği |
+| :-: | :--- | :---: | :--- | :--- |
+| **1. Pîr** | **Hâce Abdülhâlık Gucdüvânî (k.s.)** | 575 / 1179 | Gucdüvân (Buhara) | İlim, Tefsir ve İrşad (*8 Esasın Pîri*) |
+| **2. Pîr** | **Hâce Ârif Rîvegerî (k.s.)** | 616 / 1219 | Şâfirkan / Rîveger | İlim ve İrşad (*Ârifnâme Müellifi*) |
+| **3. Pîr** | **Hâce Mahmûd İncîr Fağnevî (k.s.)** | 715 / 1315 | Vâbkent / İncîr Fağne | İnşaat ve Çamur Sıvacılığı (*Gilkâr*) |
+| **4. Pîr** | **Hâce Ali Râmîtenî — Azîzân (k.s.)** | 721 / 1321 | Râmîten / Hârezm | Kumaş Dokumacılığı (*Nessâc*) |
+| **5. Pîr** | **Hâce Muhammed Baba Semmâsî (k.s.)** | 755 / 1354 | Semmâs (Buhara) | Bağcılık ve Bahçe Ziraatı |
+| **6. Pîr** | **Seyyid Emîr Külâl (k.s.)** | 772 / 1370 | Sûhârî (Buhara) | Çömlekçilik (*Külâl*) |
+| **7. Pîr** | **Şah-ı Nakşibend Muhammed Bahaüddin (k.s.)** | **791 / 1389** | **Kasr-ı Ârifân (Buhara)** | **İpek Kumaş Nakışçılığı ve Ziraat** |
+
+---
+
+## 🌍 Anadolu ve Osmanlı Medeniyetinde Şah-ı Nakşibend Mirası
+
+Şah-ı Nakşibend Hazretleri’nin Buhara’da yaktığı irfan meşalesi; **Molla Abdullah-ı İlâhî** (Simavlı) ve **Seyyid Ahmed Emîr Buhârî** ile Fatih Sultan Mehmed ve Sultan II. Bayezid devrinde İstanbul’a taşınmış, ardından **İmam-ı Rabbânî** (*Müceddidiyye*) ve **Mevlânâ Hâlid-i Bağdâdî** (*Hâlidiyye*) kollarıyla Anadolu’nun her köşesine yayılmıştır.
+
+Üsküdar Sultantepe’deki **Özbekler (Buhara) Tekkesi** ise Milli Mücadele yıllarında İstanbul’dan Anadolu’ya silah, cephane ve vatanseverlerin geçişini sağlayan en önemli gizli karargâh olarak tarihe geçmiştir *(detaylar için bkz. [`09_Anadolu_ve_Osmanli_Tesiri/`](./09_Anadolu_ve_Osmanli_Tesiri/))*.
+
+---
+
 ## 🖋️ Âlimler, Mütefekkirler ve Aydınların Gözüyle Şah-ı Nakşibend
 
 <div align="center">
@@ -417,12 +443,21 @@ bahauddin-naksibend-arsivi/
 │   └── Menkibeler_ve_Kissalar.md           # Hz. Yusuf, Timur ve Hafız, Genç Tüccar, Rahip Bahira, Elma Satışı kıssaları
 ├── 05_Eserleri_ve_Evradlar/    
 │   ├── Evrad-i_Bahaeddin.md                # Evrâd-ı Bahâiyye, Risâle-i Kudsiyye ve zikir usulü
+│   ├── Risale_i_Kudsiyye_Tahlili.md        # Enîsü't-Tâlibîn (4 Makam) ve Risâle-i Kudsiyye tahlili
 │   └── Vasiyetleri.md                      # Manevi vasiyetleri ve Ehl-i Sünnet vurgusu
 ├── 06_Makaleler_ve_Tezler/     
 │   ├── Akademik_Arastirmalar.md            # DİA maddeleri, doktora tezleri ve akademik monografiler
 │   └── Aydinlar_ve_Alimlerin_Gozuyle.md    # Âlimler, şairler ve mütefekkirlerin Şah-ı Nakşibend hakkındaki sözleri
 ├── 07_Kavramlar_Sozlugu/       
 │   └── Tasavvuf_ve_Hacegan_Istilahlari.md  # Biçun, Mahviyet, Melâmet, Üveysîlik vb. ıstılahlar sözlüğü
+├── 08_Buhara_ve_Maveraunnehir_Mirasi/
+│   ├── Buhara_yi_Serif_Tarihi_ve_Yedi_Pir.md # Buhara'nın Yedi Pîri (Pîr-i Heftgâne) ve meslekleri
+│   └── Kasr_i_Arifan_Mimari_ve_Vakiflari.md  # Kasr-ı Ârifân külliyesi mimarisi ve ziyaret edebi
+├── 09_Anadolu_ve_Osmanli_Tesiri/
+│   ├── Osmanli_Sultanlari_ve_Alimlerinde_Naksibend_Muhabbeti.md # Osmanlı'dan günümüze Anadolu'daki kollar
+│   └── Divan_Edebiyatinda_Sah_i_Naksibend_Siirleri.md           # Câmî, Nevâî ve Osmanlı şairlerinin medhiyeleri
+├── data/
+│   └── kulliyat.json                       # Yapılandırılmış açık kaynak JSON veri seti (Silsile, 11 Esas, 7 Pîr)
 ├── assets/                                 # Tezhip, minyatür ve mimari görseller (JPG & SVG)
 │   ├── kasr-i-arifan-buhara.jpg            # Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi Görseli
 │   ├── el-karda-gonul-yarda.jpg            # "El Kârda, Gönül Yârda" Buhara Çarşısı Görseli
@@ -435,7 +470,8 @@ bahauddin-naksibend-arsivi/
 │   ├── silsile-i-zeheb.svg                 # Altın Silsile (Sıddîkî & Alevî Kollar) Mimari Şeması
 │   ├── iki-temel-dustur.svg                # İki Temel Tasavvufi Düstur Görseli
 │   └── kasr-i-arifan-kulliyesi.svg         # Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi İllüstrasyonu
-├── index.html                              # İnteraktif Web Arşivi / Dijital Külliyat Arayüzü
+├── arsiv_rehberi.py                        # Terminal üzerinden arşivde arama ve okuma yapan Python CLI aracı
+├── index.html                              # İnteraktif Web Arşivi / Dijital Külliyat Arayüzü (v2.0)
 ├── Kaynakca.md                             # Enîsü't-Tâlibîn, Reşahât, Nefahâtü'l-Üns, Mektûbât vb. ana kaynaklar
 ├── KATKIDA_BULUN.md                        # Arşive nasıl destek olabileceğiniz hakkında rehber
 └── LICENSE                                 # Açık kaynak lisansı ve vakıf şuuru beyanı

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Bahaüddin Nakşibend Arşivi (bahauddin-naksibend-arsivi)",
+    "subject": "Seyyid Muhammed Bahaüddin Şah-ı Nakşibend el-Buhârî (k.s.)",
+    "birth": { "hijri": "14 Muharrem 718", "miladi": "Mart 1318", "place": "Kasr-ı Ârifân (Buhara)" },
+    "death": { "hijri": "3 Rebîülevvel 791", "miladi": "2 Mart 1389", "place": "Kasr-ı Ârifân (Buhara)", "ebced": "Şah-ı Nakşibend = 791" },
+    "titles": [
+      "Şah-ı Nakşibend",
+      "Hâce-i Büzürg",
+      "Evliyaların Şahı",
+      "Üveysî-i Hüseynî-i Buhârî"
+    ],
+    "core_principles": [
+      "El kârda, gönül yârda (Dest be-kâr, dil be-yâr)",
+      "Eller yahşi ben yaman, eller buğday ben saman"
+    ]
+  },
+  "kelimat_i_kudsiyye": [
+    { "no": 1, "name": "Hûş der-dem", "persian": "هوش در دم", "founder": "Abdülhâlık Gucdüvânî", "meaning": "Her nefeste uyanık olmak; alınan ve verilen her nefesi Allah'ın huzurundaymış gibi gafletten uzak alıp vermek." },
+    { "no": 2, "name": "Nazar ber-kadem", "persian": "نظر بر قدم", "founder": "Abdülhâlık Gucdüvânî", "meaning": "Yürürken gözün ayak ucunda olması; tevazu ve kalbi dış suretlerle dağılmaktan koruma." },
+    { "no": 3, "name": "Sefer der-vatan", "persian": "سفر در وطن", "founder": "Abdülhâlık Gucdüvânî", "meaning": "Kötü huylardan, kibirden ve nefsaniyetten sıyrılarak güzel ahlaka ve Allah'a doğru yapılan içsel hicret." },
+    { "no": 4, "name": "Halvet der-encümen", "persian": "خلوت در انجمن", "founder": "Abdülhâlık Gucdüvânî", "meaning": "Zahirde halk ile, batında Hak ile beraber olmak (El kârda, gönül yârda)." },
+    { "no": 5, "name": "Yâd kerd", "persian": "ياد كرد", "founder": "Abdülhâlık Gucdüvânî", "meaning": "Dili ve kalbi hafî (gizli) zikirle meşgul etmek." },
+    { "no": 6, "name": "Bâz geşt", "persian": "باز گشت", "founder": "Abdülhâlık Gucdüvânî", "meaning": "Zikir esnasında 'İlâhî ente maksûdî ve rızâke matlûbî' düşüncesine dönmek." },
+    { "no": 7, "name": "Nigâh dâşt", "persian": "نگاه داشت", "founder": "Abdülhâlık Gucdüvânî", "meaning": "Kalbe gelen yabancı düşünceleri (havâtır) anında kapı dışarı edip kalbi korumak." },
+    { "no": 8, "name": "Yâd dâşt", "persian": "ياد داشت", "founder": "Abdülhâlık Gucdüvânî", "meaning": "Her an, mekansız ve zamansız bir şekilde Allah'ın huzurunda olduğunun bilincinde (tam murakabe) olmak." },
+    { "no": 9, "name": "Vukûf-i zamânî", "persian": "وقوف زمانى", "founder": "Şah-ı Nakşibend", "meaning": "Zamanın nasıl geçtiğinin farkında olmak; huzurla geçtiyse şükür, gafletle geçtiyse istiğfar etmek." },
+    { "no": 10, "name": "Vukûf-i adedî", "persian": "وقوف عددى", "founder": "Şah-ı Nakşibend", "meaning": "Hafî zikirde tek sayıya riayet ederek kalbin dikkatini toplamasına yardımcı olmak." },
+    { "no": 11, "name": "Vukûf-i kalbî", "persian": "وقوف قلبى", "founder": "Şah-ı Nakşibend", "meaning": "Kalbin zikir anında bütünüyle Zikredilen'e (Allah'a) yönelmesi ve o noktada kilitlenmesi." }
+  ],
+  "buhara_yedi_pir": [
+    { "order": 1, "name": "Hâce Abdülhâlık Gucdüvânî (k.s.)", "death": "575 / 1179", "location": "Gucdüvân (Buhara)", "profession": "İlim ve İrşad" },
+    { "order": 2, "name": "Hâce Ârif Rîvegerî (k.s.)", "death": "616 / 1219", "location": "Şâfirkan / Rîveger", "profession": "İlim ve İrşad" },
+    { "order": 3, "name": "Hâce Mahmûd İncîr Fağnevî (k.s.)", "death": "715 / 1315", "location": "Vâbkent / İncîr Fağne", "profession": "Sıvacılık ve İnşaat (Gilkâr)" },
+    { "order": 4, "name": "Hâce Ali Râmîtenî — Azîzân (k.s.)", "death": "721 / 1321", "location": "Râmîten / Hârezm", "profession": "Dokumacılık (Nessâc)" },
+    { "order": 5, "name": "Hâce Muhammed Baba Semmâsî (k.s.)", "death": "755 / 1354", "location": "Semmâs (Buhara)", "profession": "Bağcılık ve Ziraat" },
+    { "order": 6, "name": "Seyyid Emîr Külâl (k.s.)", "death": "772 / 1370", "location": "Sûhârî (Buhara)", "profession": "Çömlekçilik (Külâl)" },
+    { "order": 7, "name": "Şah-ı Nakşibend Muhammed Bahaüddin (k.s.)", "death": "791 / 1389", "location": "Kasr-ı Ârifân (Buhara)", "profession": "İpek Nakışçılığı ve Ziraat" }
+  ],
+  "hikmetli_sozler": [
+    "Zâhirimiz halk ile, bâtınımız Hak iledir.",
+    "El kârda, gönül yârda (Dest be-kâr, dil be-yâr).",
+    "Eller yahşi ben yaman, eller buğday ben saman.",
+    "Bu kadar günahla ayakta duruyoruz, bundan büyük keramet mi olur?",
+    "Bizim yolumuz, Urvetü'l-Vüska'dır (sağlam kulp). O kulp, Resulullah'ın (s.a.v.) sünnetine ve ashabının yoluna sımsıkı sarılmaktır.",
+    "Bizim tarikatımız sohbettir. Halvette şöhret, şöhrette afet vardır. Hayır ve bereket cemiyettedir.",
+    "Bir kalpte iki sevgi barınmaz. Gönül evinde O'ndan başkasına yer yoktur.",
+    "Yenilen lokma gafletle elde edilmiş ve gafletle pişirilmişse, o lokmayı yiyenin kalbinde karanlık ve gaflet hasıl olur.",
+    "Maddede sen benim babamsın ama manada ben senin babanım.",
+    "Keşke senin ne sattığını bilseydiler Alaaddin!"
+  ]
+}

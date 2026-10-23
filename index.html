@@ -32,9 +32,8 @@
     }
     header {
       text-align: center;
-      padding: 4.5rem 1.5rem 3.5rem;
+      padding: 3.5rem 1.5rem 3rem;
       border-bottom: 1px solid var(--gold-dim);
-      position: relative;
     }
     .bismillah {
       font-family: 'Cormorant Garamond', serif;
@@ -46,7 +45,7 @@
     }
     h1 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-size: clamp(2.3rem, 5vw, 3.8rem);
       color: var(--gold-light);
       font-weight: 700;
       line-height: 1.15;
@@ -55,30 +54,42 @@
     .subtitle {
       font-family: 'Cormorant Garamond', serif;
       font-style: italic;
-      font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+      font-size: clamp(1.2rem, 2.5vw, 1.6rem);
       color: var(--text-muted);
       max-width: 780px;
-      margin: 0 auto 1.75rem;
+      margin: 0 auto 1.5rem;
     }
     .hero-quote {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 1.25rem 1.75rem;
+      max-width: 760px;
+      margin: 0 auto 1.25rem;
+      padding: 1.2rem 1.65rem;
       background: rgba(18, 32, 28, 0.85);
       border-left: 3px solid var(--gold);
       border-right: 3px solid var(--gold);
       border-radius: 8px;
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1.35rem;
+      font-size: 1.3rem;
       color: var(--text-main);
     }
+    .hikmet-btn {
+      background: linear-gradient(135deg, #d4af37, #b8860b);
+      color: #0b1311;
+      border: none;
+      padding: 0.55rem 1.25rem;
+      border-radius: 99px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: transform 0.2s;
+    }
+    .hikmet-btn:hover { transform: scale(1.04); }
     nav {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 0.65rem;
-      padding: 1.25rem;
-      background: rgba(11, 19, 17, 0.92);
+      gap: 0.55rem;
+      padding: 1.1rem;
+      background: rgba(11, 19, 17, 0.94);
       position: sticky;
       top: 0;
       z-index: 50;
@@ -89,10 +100,10 @@
       background: var(--bg-card);
       color: var(--text-main);
       border: 1px solid var(--gold-dim);
-      padding: 0.6rem 1.15rem;
+      padding: 0.55rem 1.05rem;
       border-radius: 999px;
       cursor: pointer;
-      font-size: 0.92rem;
+      font-size: 0.88rem;
       font-weight: 600;
       transition: all 0.22s ease;
     }
@@ -103,7 +114,7 @@
       transform: translateY(-1px);
     }
     main {
-      max-width: 1180px;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 2.5rem 1.25rem 5rem;
     }
@@ -123,14 +134,14 @@
     }
     h3 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1.55rem;
+      font-size: 1.5rem;
       color: var(--gold);
-      margin: 1.5rem 0 0.65rem;
+      margin: 1.25rem 0 0.55rem;
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 1.25rem;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      gap: 1.35rem;
       margin-top: 1.25rem;
     }
     .card {
@@ -144,6 +155,27 @@
       background: var(--bg-card-hover);
       border-color: var(--gold);
       transform: translateY(-3px);
+    }
+    .gallery-card {
+      background: var(--bg-card);
+      border: 1px solid var(--gold-dim);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: all 0.25s ease;
+    }
+    .gallery-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-4px);
+    }
+    .gallery-card img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid var(--gold-dim);
+    }
+    .gallery-card .caption {
+      padding: 1.1rem 1.25rem;
     }
     .badge {
       display: inline-block;
@@ -209,17 +241,19 @@
   <div class="bismillah">Kasr-ı Ârifân • Buhârâ-yı Şerîf (718/1318 – 791/1389)</div>
   <h1>Şah-ı Nakşibend Muhammed Bahaüddin Arşivi</h1>
   <p class="subtitle">Peygamberî Bir Mirasın İzi: Şah-ı Nakşibend Hazretleri ve Gönül Düsturları</p>
-  <div class="hero-quote">
+  <div class="hero-quote" id="randomQuoteBox">
     “Velilerden bir ordu kurulsa ve bunların başbuğlarından da ayrı bir ordu kurulsa hepsinin komutanı Şah-ı Nakşibend olur.”
     <br><span style="font-size:0.95rem; color:var(--gold);">— Necip Fazıl Kısakürek</span>
   </div>
+  <button class="hikmet-btn" onclick="nextHikmet()">✨ Günün Hikmetini Değiştir</button>
 </header>
 
 <nav>
-  <button class="active" onclick="showTab('kulliyat', this)">📜 Ana Metin & Gönül Düsturları</button>
+  <button class="active" onclick="showTab('kulliyat', this)">📜 Ana Metin & Düsturlar</button>
+  <button onclick="showTab('galeri', this)">🎨 Sanat & Tezhip Galerisi</button>
   <button onclick="showTab('kelimat', this)">🏛️ 11 Kelimât-ı Kudsiyye</button>
-  <button onclick="showTab('silsile', this)">⛓️ Silsile-i Zeheb (Altın Silsile)</button>
-  <button onclick="showTab('sozler', this)">💎 Hikmet Damlaları & Halifeleri</button>
+  <button onclick="showTab('silsile', this)">⛓️ Silsile-i Zeheb & 7 Pîr</button>
+  <button onclick="showTab('aydinlar', this)">🖋️ Âlimler & Aydınların Gözüyle</button>
 </nav>
 
 <main>
@@ -229,11 +263,7 @@
     <p>Tasavvuf tarihinde pek çok büyük veli <em>"şeyh"</em> veya <em>"pir"</em> unvanıyla anılırken, o manevi tahtın yegâne sahibi gibi <strong>"Şah"</strong> ismiyle yad edilmiştir. Bu derin çekim gücünün sırrı Doğu hikmetinin en temel ilkelerinden birinde saklıdır: <strong>"Güzele karşı güzel sevilir."</strong></p>
     <p style="margin-top:0.8rem;">Hakiki güzelliğin bir formülü, şablonu ya da mantıksal bir izahı yoktur; o <strong>biçunsuz ve biçeradır</strong> (niçinsiz ve nedensizdir). Nitekim Hz. Yusuf (a.s.) pazar meydanında göründüğünde, onun yüzündeki ilahi tecelliye kapılan kadınlar ellerindeki bıçaklarla parmaklarını doğramış ve <em>"Bu bir insan olamaz, ancak kerim bir melektir"</em> diyerek kendilerinden geçmişlerdi. İşte Şah-ı Nakşibend Hazretleri’nin gönüllerde uyandırdığı o sönmez muhabbet, Cenâb-ı Hakk’ın onun şahsında tecelli ettirdiği bu "biçun" ilahi güzelliğin ve feyzin bir yansımasıdır.</p>
 
-    <h3>Buhara-yı Şerif, Hafız-ı Şirazi ve Emir Timur</h3>
-    <p>Fars şiirinin üstadı <strong>Hafız-ı Şirazi</strong>, Şirazlı sevgilisinin yüzündeki tek bir ben uğruna Semerkant ve Buhara’yı feda edebileceğini söyler. Yıllar sonra <strong>Timur</strong> bu coğrafyayı fethedip Hafız’ı huzuruna getirttiğinde hiddetle sorar: <em>"Benim imar etmek için ömrümü verdiğim Semerkant ve Buhara’yı sen bir ben uğruna nasıl feda edersin?"</em> Hafız-ı Şirazi tebessüm eder: <strong>"Sultanım, işte böyle bol keseden harcamak bizi bu perişan hale getirdi..."</strong></p>
-
     <h2 style="margin-top:2.2rem;">2. Peygamberî Veraset: Fiziki ve Manevi Benzerlik</h2>
-    <p>Şah-ı Nakşibend Hazretleri, Hz. Peygamber’in (s.a.v.) mübarek soyundan gelen bir <strong>Seyyid</strong>’dir ve tipolojik/fiziki olarak da Allah Resulü’ne (s.a.v.) en çok benzeyen veli kabul edilir.</p>
     <table>
       <thead>
         <tr>
@@ -252,9 +282,8 @@
         </tr>
       </tbody>
     </table>
-    <blockquote>"O, Dedesi Peygamber'in soyundandır. Ceddinden bir veraset olarak onun elinin değdiği şeyi ateş yakmaz." — Muhammed Baba Semmasi (k.s.)</blockquote>
 
-    <h2 style="margin-top:2.2rem;">3. Tevazu, İki Temel Düstur ve Hakiki Keramet</h2>
+    <h2 style="margin-top:2.2rem;">3. İki Temel Tasavvufi Düstur ve Halifeleri</h2>
     <div class="grid">
       <div class="card">
         <span class="badge">Düstur 1 • Halvet der-Encümen</span>
@@ -272,27 +301,72 @@
         <p>"Bu kadar günahla ayakta duruyoruz, bundan büyük keramet mi olur?" diyerek kerameti olağanüstü hallerde değil, Sünnet-i Seniyye üzere istikamette göstermiştir.</p>
       </div>
     </div>
-
-    <h2 style="margin-top:2.2rem;">4. Yokluğa Talip Olmak: Sonsuzluk Kervanı</h2>
-    <blockquote>
-      "Sonsuzluk Kervanı, peşinizde ben,<br>
-      Üç ayakla seken topal köpeğim.<br>
-      Bastığınız yerleri taş taş öpeyim,<br>
-      Bir kırıntı yeter kereminizden..."<br>
-      <span style="font-size:0.95rem; color:var(--gold);">— Necip Fazıl Kısakürek</span>
-    </blockquote>
   </section>
 
-  <!-- TAB 2: 11 KELİMAT-I KUDSİYYE -->
+  <!-- TAB 2: SANAT & TEZHİP GALERİSİ -->
+  <section id="galeri" class="tab-section">
+    <h2>Sanat, Tezhip ve Mimari Görsel Koleksiyonu</h2>
+    <div class="grid">
+      <div class="gallery-card">
+        <img src="./assets/kasr-i-arifan-buhara.jpg" alt="Kasr-ı Arifan Buhara" />
+        <div class="caption">
+          <span class="badge">Mimari & Külliye</span>
+          <h3>Buhara-yı Şerif ve Kasr-ı Ârifân</h3>
+          <p>Gönül sultanlarının ocağı Buhara ve Şah-ı Nakşibend Hazretleri'nin türbe külliyesi.</p>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <img src="./assets/el-karda-gonul-yarda.jpg" alt="El Kârda Gönül Yârda" />
+        <div class="caption">
+          <span class="badge">Düstur I • Halvet der-Encümen</span>
+          <h3>"El Kârda, Gönül Yârda"</h3>
+          <p>Tarihi Buhara bedesteninde helal kazançla meşgul olurken kalbi Hak'tan kopmayan tüccar.</p>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <img src="./assets/altin-silsile-tezhip.jpg" alt="Altın Silsile Tezhip" />
+        <div class="caption">
+          <span class="badge">Tezhip & Şemse</span>
+          <h3>Silsile-i Zeheb (Altın Silsile)</h3>
+          <p>Lâcivert ve zümrüt şemse içerisinde Silsile-i Aliyye nur ağacı ve ilahi muhabbet kandili.</p>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <img src="./assets/tandir-kerameti-dergah.jpg" alt="Tandır Kerameti" />
+        <div class="caption">
+          <span class="badge">Peygamberî İrsiyet</span>
+          <h3>17 Yaşındaki Tandır Hadisesi</h3>
+          <p>"O, Dedesi Peygamber'in soyundandır; onun elinin değdiği şeyi ateş yakmaz."</p>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <img src="./assets/semerkand-buhara-ilim-gecesi.jpg" alt="Semerkant ve Buhara İlim Gecesi" />
+        <div class="caption">
+          <span class="badge">İlim ve İrfan</span>
+          <h3>Semerkant ve Buhara Gecesi</h3>
+          <p>Enîsü't-Tâlibîn, Risâle-i Kudsiyye ve Reşahât'ın kaleme alındığı medrese ve irfan iklimi.</p>
+        </div>
+      </div>
+      <div class="gallery-card">
+        <img src="./assets/sonsuzluk-kervani-mahviyet.jpg" alt="Sonsuzluk Kervanı" />
+        <div class="caption">
+          <span class="badge">Mahviyet & Sefer der-Vatan</span>
+          <h3>Sonsuzluk Kervanı</h3>
+          <p>Varlık iddiasından soyunup yokluğa talip olanların manaya doğuş yolculuğu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAB 3: 11 KELİMAT-I KUDSİYYE -->
   <section id="kelimat" class="tab-section">
     <h2>Tarikatın 11 Temel Prensibi (Kelimât-ı Kudsiyye)</h2>
-    <p>İlk sekizi <strong>Abdülhâlık Gucdüvânî (k.s.)</strong> Hazretleri’ne ait olan, son üçü (Üç Vukûf) ise <strong>Şah-ı Nakşibend (k.s.)</strong> tarafından eklenen 11 altın düstur:</p>
     <div class="grid" id="kelimatGrid"></div>
   </section>
 
-  <!-- TAB 3: SİLSİLE-İ ZEHEB -->
+  <!-- TAB 4: SİLSİLE-İ ZEHEB & 7 PÎR -->
   <section id="silsile" class="tab-section">
-    <h2>Silsile-i Zeheb (Altın Silsile)</h2>
+    <h2>Silsile-i Zeheb (Altın Silsile) ve Buhara’nın Yedi Pîri</h2>
     <input type="text" class="search-bar" placeholder="Silsile halkalarında isim, şehir veya dönem ara..." oninput="filterSilsile(this.value)" />
     <table>
       <thead>
@@ -308,29 +382,39 @@
     </table>
   </section>
 
-  <!-- TAB 4: HİKMET DAMLALARI -->
-  <section id="sozler" class="tab-section">
-    <h2>Yetiştirdiği Büyük Halifeler ve Gönül Yıldızları</h2>
+  <!-- TAB 5: ÂLİMLER VE AYDINLAR -->
+  <section id="aydinlar" class="tab-section">
+    <h2>Âlimler, Mütefekkirler ve Aydınların Gözüyle Şah-ı Nakşibend</h2>
     <div class="grid">
       <div class="card">
-        <span class="badge">Halife 1</span>
-        <h3>Alaaddin Attâr (k.s.)</h3>
-        <p>12 yaşında servetini terk eden şehzade. Buhara pazarında elma satarken eski komşularının pencerelerini kapattığını söylediğinde Şah-ı Nakşibend: <strong>"Keşke senin ne sattığını bilseydiler Alaaddin!"</strong> buyurmuştur.</p>
+        <span class="badge">İkinci Bin Yılın Müceddidi</span>
+        <h3>İmam-ı Rabbânî (k.s.)</h3>
+        <p>"Hâce Bahaüddin Nakşibend Hazretleri’nin yolu, Ashâb-ı Kirâm’ın yolunun ta kendisidir. Diğer yollarda sonda ulaşılan kalbî huzur, onun yolunda daha ilk adımda sohbetle ele geçer."</p>
       </div>
       <div class="card">
-        <span class="badge">Halife 2</span>
-        <h3>Yakûb-i Çerhî (k.s.)</h3>
-        <p>60 beyitlik kaside ile gelen büyük hadis âlimi. <em>"Allah sevdiği kulunu insanlar arasında da aziz kılar"</em> hadisiyle teslimiyetini arz etmiş ve Ubeydullah Ahrâr’ı yetiştirmiştir.</p>
+        <span class="badge">XV. Asır Şair ve Âlimi</span>
+        <h3>Mevlânâ Abdurrahman Câmî</h3>
+        <p>"Sikke-i merdân-ı Hudâ Nakşibend / Der dil-i mâ nakş-ı Hudâ Nakşibend. (Allah erlerinin kalbine vurulan mühür Nakşibend’dir; gönlümüze Allah’ın nakşını işleyen de Şah-ı Nakşibend’dir.)"</p>
       </div>
       <div class="card">
-        <span class="badge">Halife 3</span>
-        <h3>Ubeydullah Ahrâr (k.s.)</h3>
-        <p>Silsile-i Aliyye’nin meşalesini Maveraünnehir’den Orta Asya’nın ve İslam dünyasının en ücra köşelerine taşıyan büyük kutup.</p>
+        <span class="badge">Çağatay Edebiyatı Zirvesi</span>
+        <h3>Emîr Ali Şîr Nevâî</h3>
+        <p>"Hâce Bahaüddin Nakşibend, Türkistan ve Maveraünnehir semasının sönmez güneşi, ilahi aşk nakşını gönül levhasına vuranların şahıdır."</p>
       </div>
       <div class="card">
-        <span class="badge">Halife 4</span>
-        <h3>Muhammed Pârsâ (k.s.)</h3>
-        <p>Zahirî ve bâtınî ilimlerde derinleşmiş, <em>Risâle-i Kudsiyye</em> ve <em>Faslül-Hitâb</em> eserleriyle Hâcegân mirasını ölümsüzleştirmiş sütun.</p>
+        <span class="badge">Büyük Doğu Mimarı</span>
+        <h3>Necip Fazıl Kısakürek</h3>
+        <p>"Velilerden bir ordu kurulsa ve bunların başbuğlarından da ayrı bir ordu kurulsa hepsinin komutanı Şah-ı Nakşibend olur."</p>
+      </div>
+      <div class="card">
+        <span class="badge">Diriliş Mütefekkiri</span>
+        <h3>Sezai Karakoç</h3>
+        <p>"Onun 'El kârda, gönül yârda' ilkesi, İslam insanının hem dünyayı imar eden hem de kalbini sonsuzluğa bağlayan en sağlam medeniyet tezidir."</p>
+      </div>
+      <div class="card">
+        <span class="badge">Hareket ve Ahlak Felsefecisi</span>
+        <h3>Nurettin Topçu</h3>
+        <p>"Hakiki tasavvuf, dünyadan kaçıp miskinleşmek değil; Şah-ı Nakşibend’in 'El kârda, gönül yârda' düsturunda ifadesini bulan, emeğin kalbinde Allah ile beraber olma ahlakıdır."</p>
       </div>
     </div>
   </section>
@@ -341,6 +425,22 @@
 </footer>
 
 <script>
+  const hikmetler = [
+    { q: "Zâhirimiz halk ile, bâtınımız Hak iledir.", a: "Şah-ı Nakşibend (k.s.)" },
+    { q: "Bu kadar günahla ayakta duruyoruz, bundan büyük keramet mi olur?", a: "Şah-ı Nakşibend (k.s.)" },
+    { q: "Eller yahşi ben yaman, eller buğday ben saman.", a: "Şah-ı Nakşibend (k.s.)" },
+    { q: "Bizim yolumuz Urvetü'l-Vüska'dır: Resûlullah'ın (s.a.v.) sünnetine ve Ashâbının yoluna sımsıkı sarılmaktır.", a: "Şah-ı Nakşibend (k.s.)" },
+    { q: "Keşke senin ne sattığını bilseydiler Alaaddin!", a: "Şah-ı Nakşibend (k.s.)" },
+    { q: "Maddede sen benim babamsın ama manada ben senin babanım.", a: "Şah-ı Nakşibend (k.s.)" },
+    { q: "Velilerden bir ordu kurulsa ve bunların başbuğlarından da ayrı bir ordu kurulsa hepsinin komutanı Şah-ı Nakşibend olur.", a: "Necip Fazıl Kısakürek" }
+  ];
+  let hIdx = 0;
+  function nextHikmet() {
+    hIdx = (hIdx + 1) % hikmetler.length;
+    const item = hikmetler[hIdx];
+    document.getElementById('randomQuoteBox').innerHTML = `“${item.q}”<br><span style="font-size:0.95rem; color:var(--gold);">— ${item.a}</span>`;
+  }
+
   const kelimatData = [
     { no: 1, title: "Hûş der-dem (هوش در دم)", author: "Abdülhâlık Gucdüvânî", desc: "Her nefeste uyanık olmak; alınan ve verilen her nefesi Allah'ın huzurundaymış gibi gafletten uzak alıp vermek." },
     { no: 2, title: "Nazar ber-kadem (نظر بر قدم)", author: "Abdülhâlık Gucdüvânî", desc: "Yürürken gözün ayak ucunda olması. Hem tevazunun gereğidir hem de kalbin suretlerle dağılmasını engeller." },
@@ -365,13 +465,13 @@
     [7, "Ebü’l-Hasan Harakânî (k.s.)", "425 / 1033", "Harakân", "Tayfûriyye"],
     [8, "Ebû Ali Fârmedî (k.s.)", "477 / 1084", "Tûs (Horasan)", "Tayfûriyye"],
     [9, "Hâce Yûsuf Hemedânî (k.s.)", "535 / 1140", "Merv", "Hâcegâniyye"],
-    [10, "Hâce Abdülhâlık Gucdüvânî (k.s.)", "575 / 1179", "Gucdüvân (Buhara)", "Hâcegâniyye"],
-    [11, "Hâce Ârif Rîvegerî (k.s.)", "616 / 1219", "Rîveger (Buhara)", "Hâcegâniyye"],
-    [12, "Hâce Mahmûd İncîr Fağnevî (k.s.)", "715 / 1315", "Vâbkent (Buhara)", "Hâcegâniyye"],
-    [13, "Hâce Ali Râmîtenî — Azîzân (k.s.)", "721 / 1321", "Köhne Ürgenç (Hârezm)", "Hâcegâniyye"],
-    [14, "Hâce Muhammed Baba Semmâsî (k.s.)", "755 / 1354", "Semmâs (Buhara)", "Hâcegâniyye"],
-    [15, "Seyyid Emîr Külâl (k.s.)", "772 / 1370", "Sûhârî (Buhara)", "Hâcegâniyye"],
-    [16, "Şah-ı Nakşibend Muhammed Bahaüddin (k.s.)", "791 / 1389", "Kasr-ı Ârifân (Buhara)", "Nakşibendiyye"],
+    [10, "Hâce Abdülhâlık Gucdüvânî (k.s.)", "575 / 1179", "Gucdüvân (Buhara - 1. Pîr)", "Hâcegâniyye"],
+    [11, "Hâce Ârif Rîvegerî (k.s.)", "616 / 1219", "Rîveger (Buhara - 2. Pîr)", "Hâcegâniyye"],
+    [12, "Hâce Mahmûd İncîr Fağnevî (k.s.)", "715 / 1315", "Vâbkent (Buhara - 3. Pîr)", "Hâcegâniyye"],
+    [13, "Hâce Ali Râmîtenî — Azîzân (k.s.)", "721 / 1321", "Râmîten / Hârezm (4. Pîr)", "Hâcegâniyye"],
+    [14, "Hâce Muhammed Baba Semmâsî (k.s.)", "755 / 1354", "Semmâs (Buhara - 5. Pîr)", "Hâcegâniyye"],
+    [15, "Seyyid Emîr Külâl (k.s.)", "772 / 1370", "Sûhârî (Buhara - 6. Pîr)", "Hâcegâniyye"],
+    [16, "Şah-ı Nakşibend Muhammed Bahaüddin (k.s.)", "791 / 1389", "Kasr-ı Ârifân (Buhara - 7. Pîr)", "Nakşibendiyye"],
     [17, "Hâce Alaaddin Attâr (k.s.)", "802 / 1400", "Çağâniyân (Denav)", "Nakşibendiyye"],
     [18, "Mevlânâ Yakûb-i Çerhî (k.s.)", "851 / 1447", "Duşanbe (Tacikistan)", "Nakşibendiyye"],
     [19, "Hâce Ubeydullah Ahrâr (k.s.)", "895 / 1490", "Semerkant", "Ahrâriyye"],
