@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgK" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091512"/>
+      <stop offset="100%" stop-color="#112620"/>
+    </linearGradient>
+    <linearGradient id="goldK" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c59b27"/>
+      <stop offset="50%" stop-color="#f7de8a"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" rx="18" fill="url(#bgK)"/>
+  <rect x="16" y="16" width="1168" height="728" rx="14" fill="none" stroke="url(#goldK)" stroke-width="2"/>
+
+  <!-- Header -->
+  <text x="600" y="58" text-anchor="middle" fill="url(#goldK)" font-family="Georgia, serif" font-size="30" font-weight="bold">
+    KELİMÂT-I KUDSİYYE • 11 TEMEL PRENSİP
+  </text>
+  <text x="600" y="86" text-anchor="middle" fill="#cfc8b8" font-family="Georgia, serif" font-size="16" font-style="italic">
+    Hâce Abdülhâlık Gucdüvânî (İlk 8 Esas) &amp; Şah-ı Nakşibend Muhammed Bahaüddin (Üç Vukûf)
+  </text>
+  <line x1="250" y1="102" x2="950" y2="102" stroke="url(#goldK)" stroke-width="1"/>
+
+  <!-- Row 1: 1, 2, 3, 4 -->
+  <g transform="translate(45, 125)">
+    <rect width="262" height="160" rx="12" fill="#132a23" stroke="#d4af37" stroke-width="1.2"/>
+    <circle cx="32" cy="32" r="16" fill="#d4af37"/><text x="32" y="37" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">1</text>
+    <text x="60" y="36" fill="#f7de8a" font-family="Georgia, serif" font-size="18" font-weight="bold">Hûş der-dem</text>
+    <text x="242" y="36" text-anchor="end" fill="#d4af37" font-size="16">هوش در دم</text>
+    <text x="20" y="72" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">Her Nefeste Uyanıklık</text>
+    <text x="20" y="96" fill="#cfc8b8" font-family="sans-serif" font-size="12">Alınan ve verilen her nefesi</text>
+    <text x="20" y="114" fill="#cfc8b8" font-family="sans-serif" font-size="12">Allah'ın huzurundaymış gibi</text>
+    <text x="20" y="132" fill="#cfc8b8" font-family="sans-serif" font-size="12">gafletten uzak alıp vermek.</text>
+  </g>
+
+  <g transform="translate(327, 125)">
+    <rect width="262" height="160" rx="12" fill="#132a23" stroke="#d4af37" stroke-width="1.2"/>
+    <circle cx="32" cy="32" r="16" fill="#d4af37"/><text x="32" y="37" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">2</text>
+    <text x="60" y="36" fill="#f7de8a" font-family="Georgia, serif" font-size="18" font-weight="bold">Nazar ber-kadem</text>
+    <text x="242" y="36" text-anchor="end" fill="#d4af37" font-size="16">نظر بر قدم</text>
+    <text x="20" y="72" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">Gözün Ayak Ucunda Olması</text>
+    <text x="20" y="96" fill="#cfc8b8" font-family="sans-serif" font-size="12">Yürürken bakışları koruyarak</text>
+    <text x="20" y="114" fill="#cfc8b8" font-family="sans-serif" font-size="12">tevazu üzere olmak ve kalbin</text>
+    <text x="20" y="132" fill="#cfc8b8" font-family="sans-serif" font-size="12">dış suretlerle dağılmasını önlemek.</text>
+  </g>
+
+  <g transform="translate(609, 125)">
+    <rect width="262" height="160" rx="12" fill="#132a23" stroke="#d4af37" stroke-width="1.2"/>
+    <circle cx="32" cy="32" r="16" fill="#d4af37"/><text x="32" y="37" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">3</text>
+    <text x="60" y="36" fill="#f7de8a" font-family="Georgia, serif" font-size="18" font-weight="bold">Sefer der-vatan</text>
+    <text x="242" y="36" text-anchor="end" fill="#d4af37" font-size="16">سفر در وطن</text>
+    <text x="20" y="72" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">Vatanda İçsel Yolculuk</text>
+    <text x="20" y="96" fill="#cfc8b8" font-family="sans-serif" font-size="12">Kötü huylardan, kibirden ve</text>
+    <text x="20" y="114" fill="#cfc8b8" font-family="sans-serif" font-size="12">nefsaniyetten sıyrılarak güzel</text>
+    <text x="20" y="132" fill="#cfc8b8" font-family="sans-serif" font-size="12">ahlaka ve Hakk'a hicret etmek.</text>
+  </g>
+
+  <g transform="translate(891, 125)">
+    <rect width="262" height="160" rx="12" fill="#132a23" stroke="#d4af37" stroke-width="1.2"/>
+    <circle cx="32" cy="32" r="16" fill="#d4af37"/><text x="32" y="37" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">4</text>
+    <text x="56" y="36" fill="#f7de8a" font-family="Georgia, serif" font-size="16" font-weight="bold">Halvet der-encümen</text>
+    <text x="242" y="36" text-anchor="end" fill="#d4af37" font-size="15">خلوت در انجمن</text>
+    <text x="20" y="72" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">El Kârda, Gönül Yârda</text>
+    <text x="20" y="96" fill="#cfc8b8" font-family="sans-serif" font-size="12">Zahirde halk ile iş ve ticaret</text>
+    <text x="20" y="114" fill="#cfc8b8" font-family="sans-serif" font-size="12">içinde bulunurken, batında her</text>
+    <text x="20" y="132" fill="#cfc8b8" font-family="sans-serif" font-size="12">an Cenâb-ı Hak ile beraber olmak.</text>
+  </g>
+
+  <!-- Row 2: 5, 6, 7, 8 -->
+  <g transform="translate(45, 305)">
+    <rect width="262" height="160" rx="12" fill="#132a23" stroke="#d4af37" stroke-width="1.2"/>
+    <circle cx="32" cy="32" r="16" fill="#d4af37"/><text x="32" y="37" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">5</text>
+    <text x="60" y="36" fill="#f7de8a" font-family="Georgia, serif" font-size="18" font-weight="bold">Yâd kerd</text>
+    <text x="242" y="36" text-anchor="end" fill="#d4af37" font-size="16">ياد كرد</text>
+    <text x="20" y="72" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">Hafî (Kalbî) Zikir</text>
+    <text x="20" y="96" fill="#cfc8b8" font-family="sans-serif" font-size="12">Dili damağa yapıştırarak kalbi</text>
+    <text x="20" y="114" fill="#cfc8b8" font-family="sans-serif" font-size="12">İsm-i Celâl ve Nefiy-İspat</text>
+    <text x="20" y="132" fill="#cfc8b8" font-family="sans-serif" font-size="12">zikriyle daima uyanık tutmak.</text>
+  </g>
+
+  <g transform="translate(327, 305)">
+    <rect width="262" height="160" rx="12" fill="#132a23" stroke="#d4af37" stroke-width="1.2"/>
+    <circle cx="32" cy="32" r="16" fill="#d4af37"/><text x="32" y="37" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">6</text>
+    <text x="60" y="36" fill="#f7de8a" font-family="Georgia, serif" font-size="18" font-weight="bold">Bâz geşt</text>
+    <text x="242" y="36" text-anchor="end" fill="#d4af37" font-size="16">باز گشت</text>
+    <text x="20" y="72" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">Yalnız Hakk'ın Rızasına Dönüş</text>
+    <text x="20" y="96" fill="#cfc8b8" font-family="sans-serif" font-size="12">"İlâhî ente maksûdî ve rızâke</text>
+    <text x="20" y="114" fill="#cfc8b8" font-family="sans-serif" font-size="12">matlûbî" diyerek gayeyi yalnız</text>
+    <text x="20" y="132" fill="#cfc8b8" font-family="sans-serif" font-size="12">Allah'ın rızasına kilitlemek.</text>
+  </g>
+
+  <g transform="translate(609, 305)">
+    <rect width="262" height="160" rx="12" fill="#132a23" stroke="#d4af37" stroke-width="1.2"/>
+    <circle cx="32" cy="32" r="16" fill="#d4af37"/><text x="32" y="37" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">7</text>
+    <text x="60" y="36" fill="#f7de8a" font-family="Georgia, serif" font-size="18" font-weight="bold">Nigâh dâşt</text>
+    <text x="242" y="36" text-anchor="end" fill="#d4af37" font-size="16">نگاه داشت</text>
+    <text x="20" y="72" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">Kalbi Havâtırdan Korumak</text>
+    <text x="20" y="96" fill="#cfc8b8" font-family="sans-serif" font-size="12">Kalbe gelen bütün yabancı</text>
+    <text x="20" y="114" fill="#cfc8b8" font-family="sans-serif" font-size="12">düşünceleri (masivayı) anında</text>
+    <text x="20" y="132" fill="#cfc8b8" font-family="sans-serif" font-size="12">kapı dışarı edip nöbet tutmak.</text>
+  </g>
+
+  <g transform="translate(891, 305)">
+    <rect width="262" height="160" rx="12" fill="#132a23" stroke="#d4af37" stroke-width="1.2"/>
+    <circle cx="32" cy="32" r="16" fill="#d4af37"/><text x="32" y="37" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">8</text>
+    <text x="60" y="36" fill="#f7de8a" font-family="Georgia, serif" font-size="18" font-weight="bold">Yâd dâşt</text>
+    <text x="242" y="36" text-anchor="end" fill="#d4af37" font-size="16">ياد داشت</text>
+    <text x="20" y="72" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">Daimî Huzur ve Şuhûd</text>
+    <text x="20" y="96" fill="#cfc8b8" font-family="sans-serif" font-size="12">Söz ve kavramların ötesinde,</text>
+    <text x="20" y="114" fill="#cfc8b8" font-family="sans-serif" font-size="12">her an Allah'ın huzurunda</text>
+    <text x="20" y="132" fill="#cfc8b8" font-family="sans-serif" font-size="12">bulunma bilinci (tam murakabe).</text>
+  </g>
+
+  <!-- Subheader for Şah-ı Nakşibend's 3 Vukuf -->
+  <rect x="330" y="485" width="540" height="32" rx="16" fill="#4a121b" stroke="#f7de8a" stroke-width="1.2"/>
+  <text x="600" y="506" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="15" font-weight="bold">
+    👑 ŞAH-I NAKŞİBEND HAZRETLERİ’NİN EKLEDİĞİ ÜÇ VUKÛF (9 – 11)
+  </text>
+
+  <!-- Row 3: 9, 10, 11 -->
+  <g transform="translate(85, 535)">
+    <rect width="320" height="175" rx="12" fill="#1c1624" stroke="#f7de8a" stroke-width="1.6"/>
+    <circle cx="34" cy="34" r="17" fill="#f7de8a"/><text x="34" y="39" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">9</text>
+    <text x="64" y="39" fill="#f7de8a" font-family="Georgia, serif" font-size="19" font-weight="bold">Vukûf-i Zamânî</text>
+    <text x="300" y="39" text-anchor="end" fill="#d4af37" font-size="16">وقوف زمانى</text>
+    <text x="22" y="76" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">Zamanın ve Anın Muhasebesi</text>
+    <text x="22" y="102" fill="#e6e1d6" font-family="sans-serif" font-size="12.5">Sâlikin her an kendi halini yoklaması;</text>
+    <text x="22" y="122" fill="#e6e1d6" font-family="sans-serif" font-size="12.5">vakti huzurla geçtiyse şükretmesi,</text>
+    <text x="22" y="142" fill="#e6e1d6" font-family="sans-serif" font-size="12.5">gafletle geçtiyse derhal istiğfar etmesi.</text>
+  </g>
+
+  <g transform="translate(440, 535)">
+    <rect width="320" height="175" rx="12" fill="#1c1624" stroke="#f7de8a" stroke-width="1.6"/>
+    <circle cx="34" cy="34" r="17" fill="#f7de8a"/><text x="34" y="39" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">10</text>
+    <text x="64" y="39" fill="#f7de8a" font-family="Georgia, serif" font-size="19" font-weight="bold">Vukûf-i Adedî</text>
+    <text x="300" y="39" text-anchor="end" fill="#d4af37" font-size="16">وقوف عددى</text>
+    <text x="22" y="76" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">Hafî Zikirde Tek Sayı Sırrı</text>
+    <text x="22" y="102" fill="#e6e1d6" font-family="sans-serif" font-size="12.5">Nefes tutularak yapılan nefiy-ispat</text>
+    <text x="22" y="122" fill="#e6e1d6" font-family="sans-serif" font-size="12.5">zikrinde tek sayıya (3, 5, 7, 21) riayet</text>
+    <text x="22" y="142" fill="#e6e1d6" font-family="sans-serif" font-size="12.5">ederek zihnin dağılmasını önlemek.</text>
+  </g>
+
+  <g transform="translate(795, 535)">
+    <rect width="320" height="175" rx="12" fill="#1c1624" stroke="#f7de8a" stroke-width="1.6"/>
+    <circle cx="34" cy="34" r="17" fill="#f7de8a"/><text x="34" y="39" text-anchor="middle" fill="#091512" font-weight="bold" font-size="15">11</text>
+    <text x="64" y="39" fill="#f7de8a" font-family="Georgia, serif" font-size="19" font-weight="bold">Vukûf-i Kalbî</text>
+    <text x="300" y="39" text-anchor="end" fill="#d4af37" font-size="16">وقوف قلبى</text>
+    <text x="22" y="76" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">"Nakşibend" İsminin Sırrı</text>
+    <text x="22" y="102" fill="#e6e1d6" font-family="sans-serif" font-size="12.5">Kalbin zikir anında bütünüyle Allah'a</text>
+    <text x="22" y="122" fill="#e6e1d6" font-family="sans-serif" font-size="12.5">yönelmesi ve İsm-i Celâl'in kalbe</text>
+    <text x="22" y="142" fill="#e6e1d6" font-family="sans-serif" font-size="12.5">silinmez bir nakış gibi mühürlenmesi.</text>
+  </g>
+</svg>

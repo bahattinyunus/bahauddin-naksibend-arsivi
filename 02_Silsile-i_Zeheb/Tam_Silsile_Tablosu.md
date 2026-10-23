@@ -1,5 +1,7 @@
 # ⛓️ Silsile-i Zeheb (Altın Silsile) Tam Tablosu
 
+![Silsile-i Zeheb Şeması](../assets/silsile-i-zeheb.svg)
+
 Nakşibendiyye yolunun **Hz. Muhammed Mustafa (s.a.v.)** Efendimiz’den başlayarak **Şah-ı Nakşibend (k.s.)**, **İmam-ı Rabbânî (k.s.)** ve **Mevlânâ Hâlid-i Bağdâdî (k.s.)** Hazretleri’ne kadar uzanan tam halkaları, vefat tarihleri ve türbelerinin bulunduğu şehirler:
 
 ---

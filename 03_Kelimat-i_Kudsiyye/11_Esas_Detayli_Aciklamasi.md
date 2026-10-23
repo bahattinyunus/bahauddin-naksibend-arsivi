@@ -1,5 +1,7 @@
 # 🏛️ Kelimât-ı Kudsiyye: Nakşibendiyye Yolunun 11 Temel Esası
 
+![Kelimât-ı Kudsiyye — 11 Temel Prensip](../assets/kelimat-i-kudsiyye.svg)
+
 Hâcegân ve Nakşibendiyye yolunun seyr-ü sülûk usulü, Farsça ifade edilen **11 kutsal kelime (*Kelimât-ı Kudsiyye*)** üzerine bina edilmiştir. İlk sekiz esas **Hâce Abdülhâlık Gucdüvânî (k.s.)** tarafından vaz edilmiş, son üç esas (*Üç Vukûf*) ise **Şah-ı Nakşibend Muhammed Bahaüddin el-Buhârî (k.s.)** tarafından eklenerek sistem kemâle erdirilmiştir.
 
 ---

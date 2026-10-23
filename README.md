@@ -1,5 +1,7 @@
 <div align="center">
 
+![Şah-ı Nakşibend Hazretleri — Kasr-ı Ârifân Banner](./assets/hero-banner.svg)
+
 # 📜 Bahaüddin Nakşibend Arşivi (`bahauddin-naksibend-arsivi`)
 ### *Peygamberî Bir Mirasın İzi: Şah-ı Nakşibend Hazretleri ve Gönül Düsturları*
 
@@ -144,6 +146,12 @@ flowchart TD
 
 ## ⚖️ 5. Hayatın İçinde Hak ile Olmak: İki Temel Tasavvufi Düstur
 
+<div align="center">
+
+![İki Temel Gönül Düsturu](./assets/iki-temel-dustur.svg)
+
+</div>
+
 Şah-ı Nakşibend Hazretleri, insanı dünyadan ve üretimden koparan münzevi bir zühd anlayışını reddetmiş; gündelik hayatın tam merkezinde maneviyatı yaşamayı esas alan iki büyük düstur vazetmiştir:
 
 ### Düstur 1: "El kârda, gönül yârda" (*Dil be-yâr, dest be-kâr / Dil be-kâr, dest be-kâr*)
@@ -175,6 +183,12 @@ Mekke cahiliyesinin *"Yetimden peygamber mi olur?"* diyerek hor gördüğü O Ye
 ---
 
 ## 🏛️ Tarikatın 11 Temel Prensibi (Kelimât-ı Kudsiyye)
+
+<div align="center">
+
+![Kelimât-ı Kudsiyye — 11 Temel Prensip](./assets/kelimat-i-kudsiyye.svg)
+
+</div>
 
 Nakşibendiyye yolunun üzerine bina edildiği, ilk sekizi **Abdülhâlık Gucdüvânî** Hazretleri’ne ait olan ve **Şah-ı Nakşibend** Hazretleri’nin üç esas (*vukûf*) daha ekleyerek tamamladığı **11 Temel Düstur** (detaylı şerhi için bkz. [`03_Kelimat-i_Kudsiyye/11_Esas_Detayli_Aciklamasi.md`](./03_Kelimat-i_Kudsiyye/11_Esas_Detayli_Aciklamasi.md)):
 
@@ -228,6 +242,12 @@ Onun yolu, Kur'an ve Sünnet'e kıl payı kadar dahi aykırı düşmemek üzerin
 
 ## 🔗 Altın Silsile (Silsile-i Zeheb)
 
+<div align="center">
+
+![Silsile-i Zeheb — Altın Silsile Şeması](./assets/silsile-i-zeheb.svg)
+
+</div>
+
 Nakşibendiyye yolu, silsilesi itibarıyla **Hz. Ebû Bekir es-Sıddîk (r.a.)** Efendimiz’e ve **Hz. Ali el-Murtazâ (r.a.)** kanalıyla Ehl-i Beyt’e dayanır. Sıddîkî kol, yolun gizli zikri (Hira ve Sevr Mağarası'ndaki kalbî maiyyet ve gizlilik) esas almasının kökenidir:
 
 ```mermaid
@@ -247,6 +267,12 @@ flowchart LR
 ---
 
 ## ⏳ Kronolojik Hayat Çizelgesi (718/1318 – 791/1389)
+
+<div align="center">
+
+![Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi](./assets/kasr-i-arifan-kulliyesi.svg)
+
+</div>
 
 | Tarih (Hicrî / Milâdî) | Yaş | Tarihi Hadise ve Manevi Dönüm Noktası |
 | :---: | :-: | :--- |
@@ -313,6 +339,12 @@ bahauddin-naksibend-arsivi/
 │   └── Akademik_Arastirmalar.md            # DİA maddeleri, doktora tezleri ve akademik monografiler
 ├── 07_Kavramlar_Sozlugu/       
 │   └── Tasavvuf_ve_Hacegan_Istilahlari.md  # Biçun, Mahviyet, Melâmet, Üveysîlik vb. ıstılahlar sözlüğü
+├── assets/                                 # Tezhip, hat ve mimari infografik görselleri (SVG)
+│   ├── hero-banner.svg                     # Şah-ı Nakşibend & Kasr-ı Ârifân Tezhip Kapak Görseli
+│   ├── kelimat-i-kudsiyye.svg              # 11 Kelimât-ı Kudsiyye Görsel Tablosu
+│   ├── silsile-i-zeheb.svg                 # Altın Silsile (Sıddîkî & Alevî Kollar) Mimari Şeması
+│   ├── iki-temel-dustur.svg                # İki Temel Tasavvufi Düstur Görseli
+│   └── kasr-i-arifan-kulliyesi.svg         # Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi İllüstrasyonu
 ├── index.html                              # İnteraktif Web Arşivi / Dijital Külliyat Arayüzü
 ├── Kaynakca.md                             # Enîsü't-Tâlibîn, Reşahât, Nefahâtü'l-Üns, Mektûbât vb. ana kaynaklar
 ├── KATKIDA_BULUN.md                        # Arşive nasıl destek olabileceğiniz hakkında rehber

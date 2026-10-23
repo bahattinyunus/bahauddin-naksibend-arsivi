@@ -1,5 +1,7 @@
 # 🕌 Vefatı, Vasiyeti ve Kasr-ı Ârifân Külliyesi
 
+![Buhara-yı Şerif ve Kasr-ı Ârifân Külliyesi](../assets/kasr-i-arifan-kulliyesi.svg)
+
 > *"Şah-ı Nakşibend"* terkibinin ebced değeri **791**’dir ve tam vefat yılı olan **Hicrî 791 (Milâdî 1389)** senesine tarih düşürmektedir.
 
 ---

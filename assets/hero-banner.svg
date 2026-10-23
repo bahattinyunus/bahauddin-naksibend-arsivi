@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071310"/>
+      <stop offset="50%" stop-color="#0f2620"/>
+      <stop offset="100%" stop-color="#081612"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b8860b"/>
+      <stop offset="50%" stop-color="#f5d77f"/>
+      <stop offset="100%" stop-color="#c59b27"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="islamicGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 0 L60 30 L30 60 L0 30 Z" fill="none" stroke="#d4af37" stroke-width="0.6" stroke-opacity="0.14"/>
+      <circle cx="30" cy="30" r="12" fill="none" stroke="#d4af37" stroke-width="0.5" stroke-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" rx="18" fill="url(#bgGrad)"/>
+  <rect width="1200" height="420" rx="18" fill="url(#islamicGrid)"/>
+  <circle cx="600" cy="210" r="320" fill="url(#glow)"/>
+
+  <!-- Outer & Inner Tezhip Borders -->
+  <rect x="16" y="16" width="1168" height="388" rx="14" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+  <rect x="26" y="26" width="1148" height="368" rx="10" fill="none" stroke="#d4af37" stroke-width="0.8" stroke-dasharray="6,4" stroke-opacity="0.65"/>
+
+  <!-- Corner Medallions -->
+  <g stroke="url(#goldGrad)" fill="none" stroke-width="1.5">
+    <circle cx="52" cy="52" r="14"/><circle cx="52" cy="52" r="6"/>
+    <circle cx="1148" cy="52" r="14"/><circle cx="1148" cy="52" r="6"/>
+    <circle cx="52" cy="368" r="14"/><circle cx="52" cy="368" r="6"/>
+    <circle cx="1148" cy="368" r="14"/><circle cx="1148" cy="368" r="6"/>
+  </g>
+
+  <!-- Buhara Dome Silhouettes Left & Right -->
+  <g fill="#d4af37" fill-opacity="0.08" stroke="#d4af37" stroke-opacity="0.28" stroke-width="1">
+    <!-- Left Dome -->
+    <path d="M90 365 L90 270 Q90 215 140 195 Q190 215 190 270 L190 365 Z"/>
+    <line x1="140" y1="195" x2="140" y2="170"/>
+    <circle cx="140" cy="166" r="4"/>
+    <!-- Right Dome -->
+    <path d="M1010 365 L1010 270 Q1010 215 1060 195 Q1110 215 1110 270 L1110 365 Z"/>
+    <line x1="1060" y1="195" x2="1060" y2="170"/>
+    <circle cx="1060" cy="166" r="4"/>
+  </g>
+
+  <!-- Top Bismillah & Arabic Calligraphy Header -->
+  <text x="600" y="72" text-anchor="middle" fill="#f5d77f" font-family="'Traditional Arabic', 'Amiri', Georgia, serif" font-size="24" letter-spacing="1">
+    بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ • شَاهِ نَقْشِبَنْد قُدِّسَ سِرُّهُ
+  </text>
+
+  <!-- Subtitle Badge -->
+  <rect x="410" y="88" width="380" height="28" rx="14" fill="#14332a" stroke="#d4af37" stroke-width="1"/>
+  <text x="600" y="107" text-anchor="middle" fill="#e8c86b" font-family="Georgia, serif" font-size="13" font-weight="bold" letter-spacing="2">
+    KASR-I ÂRİFÂN • BUHÂRÂ-YI ŞERİF (718/1318 – 791/1389)
+  </text>
+
+  <!-- Main Title -->
+  <text x="600" y="172" text-anchor="middle" fill="url(#goldGrad)" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="bold">
+    ŞAH-I NAKŞİBEND HAZRETLERİ
+  </text>
+  <text x="600" y="212" text-anchor="middle" fill="#f3efe6" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic">
+    Peygamberî Bir Mirasın İzi: Seyyid Muhammed Bahaüddin el-Buhârî ve Gönül Düsturları
+  </text>
+
+  <!-- Ornamental Divider -->
+  <line x1="320" y1="236" x2="565" y2="236" stroke="url(#goldGrad)" stroke-width="1.2"/>
+  <polygon points="600,229 608,236 600,243 592,236" fill="#f5d77f"/>
+  <line x1="635" y1="236" x2="880" y2="236" stroke="url(#goldGrad)" stroke-width="1.2"/>
+
+  <!-- Two Core Principles Pills -->
+  <g transform="translate(220, 260)">
+    <rect width="355" height="62" rx="10" fill="#102921" stroke="#d4af37" stroke-width="1.2"/>
+    <text x="177" y="26" text-anchor="middle" fill="#f5d77f" font-family="Georgia, serif" font-size="16" font-weight="bold">
+      ١. دَسْتْ بِكَارْ دِلْ بِيَارْ • DÜSTUR I
+    </text>
+    <text x="177" y="48" text-anchor="middle" fill="#e6e1d6" font-family="Georgia, serif" font-size="14" font-style="italic">
+      "El kârda, gönül yârda" (Halk içinde Hak ile olmak)
+    </text>
+  </g>
+
+  <g transform="translate(625, 260)">
+    <rect width="355" height="62" rx="10" fill="#102921" stroke="#d4af37" stroke-width="1.2"/>
+    <text x="177" y="26" text-anchor="middle" fill="#f5d77f" font-family="Georgia, serif" font-size="16" font-weight="bold">
+      ٢. مَحْوِيَّتْ وَ تَوَاضُعْ • DÜSTUR II
+    </text>
+    <text x="177" y="48" text-anchor="middle" fill="#e6e1d6" font-family="Georgia, serif" font-size="14" font-style="italic">
+      "Eller yahşi ben yaman, eller buğday ben saman"
+    </text>
+  </g>
+
+  <!-- Bottom Quote -->
+  <text x="600" y="362" text-anchor="middle" fill="#d4af37" font-family="Georgia, serif" font-size="15" font-style="italic">
+    “Velilerden bir ordu kurulsa ve bunların başbuğlarından da ayrı bir ordu kurulsa hepsinin komutanı Şah-ı Nakşibend olur.” — Necip Fazıl Kısakürek
+  </text>
+</svg>

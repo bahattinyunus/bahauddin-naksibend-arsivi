@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06100e"/>
+      <stop offset="60%" stop-color="#102821"/>
+      <stop offset="100%" stop-color="#1a3b30"/>
+    </linearGradient>
+    <linearGradient id="goldDome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7de8a"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#8f6b14"/>
+    </linearGradient>
+    <linearGradient id="turquoiseDome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ec4b6"/>
+      <stop offset="50%" stop-color="#157a6e"/>
+      <stop offset="100%" stop-color="#0d4b44"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="460" rx="18" fill="url(#sky)"/>
+  <rect x="16" y="16" width="1168" height="428" rx="14" fill="none" stroke="url(#goldDome)" stroke-width="2"/>
+
+  <!-- Stars & Crescent Moon -->
+  <g fill="#f7de8a" opacity="0.75">
+    <circle cx="140" cy="70" r="2"/><circle cx="260" cy="55" r="1.5"/><circle cx="420" cy="80" r="2"/>
+    <circle cx="780" cy="65" r="1.8"/><circle cx="940" cy="50" r="2.2"/><circle cx="1060" cy="85" r="1.5"/>
+    <path d="M1010 75 A24 24 0 1 1 985 108 A20 20 0 1 0 1010 75 Z"/>
+  </g>
+
+  <text x="600" y="60" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="28" font-weight="bold">
+    BUHÂRÂ-YI ŞERİF • KASR-I ÂRİFÂN MANEVİ COĞRAFYASI VE MİRASI
+  </text>
+  <text x="600" y="88" text-anchor="middle" fill="#d8d2c5" font-family="Georgia, serif" font-size="15" font-style="italic">
+    "Buradan bir veli kokusu geliyor; bu Kasr-ı Hinduvân yakında Kasr-ı Ârifân (Âriflerin Sarayı) olacak!" — Muhammed Baba Semmâsî
+  </text>
+
+  <!-- Architectural Silhouette of Kasr-i Arifan & Bukhara Domes -->
+  <g transform="translate(0, 15)">
+    <!-- Ground Platform -->
+    <rect x="60" y="340" width="1080" height="8" rx="4" fill="url(#goldDome)"/>
+
+    <!-- Left Minaret -->
+    <rect x="170" y="155" width="28" height="185" fill="#17382e" stroke="#d4af37" stroke-width="1.2"/>
+    <polygon points="166,155 202,155 196,135 172,135" fill="#d4af37"/>
+    <path d="M172 135 Q184 110 196 135 Z" fill="url(#turquoiseDome)" stroke="#f7de8a" stroke-width="1"/>
+    <line x1="184" y1="118" x2="184" y2="102" stroke="#f7de8a" stroke-width="1.5"/>
+
+    <!-- Left Side Iwan & Turquoise Dome -->
+    <path d="M235 230 Q295 150 355 230 Z" fill="url(#turquoiseDome)" stroke="#f7de8a" stroke-width="1.4"/>
+    <line x1="295" y1="188" x2="295" y2="165" stroke="#f7de8a" stroke-width="1.5"/>
+    <rect x="220" y="230" width="150" height="110" fill="#122d24" stroke="#d4af37" stroke-width="1.2"/>
+    <path d="M260 340 L260 275 Q295 250 330 275 L330 340 Z" fill="#081410" stroke="#d4af37" stroke-width="1"/>
+
+    <!-- Center Grand Pishtaq (Portal) & Golden Dome of Kasr-i Arifan -->
+    <path d="M490 205 Q600 85 710 205 Z" fill="url(#goldDome)" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.5"/>
+    <line x1="600" y1="142" x2="600" y2="112" stroke="#f7de8a" stroke-width="2"/>
+    <circle cx="600" cy="108" r="5" fill="#f7de8a"/>
+
+    <rect x="455" y="195" width="290" height="145" fill="#16362c" stroke="#f7de8a" stroke-width="1.8"/>
+    <rect x="475" y="210" width="250" height="130" fill="none" stroke="#d4af37" stroke-width="1" stroke-dasharray="4,3"/>
+    <!-- Central Arch (Iwan) -->
+    <path d="M525 340 L525 250 Q600 205 675 250 L675 340 Z" fill="#07120e" stroke="#f7de8a" stroke-width="1.6"/>
+    <text x="600" y="280" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="16" font-weight="bold">
+      KASR-I ÂRİFÂN
+    </text>
+    <text x="600" y="302" text-anchor="middle" fill="#2ec4b6" font-family="Georgia, serif" font-size="13">
+      Şah-ı Nakşibend Türbesi &amp; Külliyesi
+    </text>
+    <text x="600" y="322" text-anchor="middle" fill="#cfc8b8" font-size="11.5">
+      H. 718 (1318) – H. 791 (1389)
+    </text>
+
+    <!-- Right Side Iwan & Turquoise Dome -->
+    <path d="M845 230 Q905 150 965 230 Z" fill="url(#turquoiseDome)" stroke="#f7de8a" stroke-width="1.4"/>
+    <line x1="905" y1="188" x2="905" y2="165" stroke="#f7de8a" stroke-width="1.5"/>
+    <rect x="830" y="230" width="150" height="110" fill="#122d24" stroke="#d4af37" stroke-width="1.2"/>
+    <path d="M870 340 L870 275 Q905 250 940 275 L940 340 Z" fill="#081410" stroke="#d4af37" stroke-width="1"/>
+
+    <!-- Right Minaret -->
+    <rect x="1002" y="155" width="28" height="185" fill="#17382e" stroke="#d4af37" stroke-width="1.2"/>
+    <polygon points="998,155 1034,155 1028,135 1004,135" fill="#d4af37"/>
+    <path d="M1004 135 Q1016 110 1028 135 Z" fill="url(#turquoiseDome)" stroke="#f7de8a" stroke-width="1"/>
+    <line x1="1016" y1="118" x2="1016" y2="102" stroke="#f7de8a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 5 Spiritual Stations of Bukhara Footer Pills -->
+  <g transform="translate(55, 375)">
+    <rect width="202" height="48" rx="8" fill="#0e221c" stroke="#d4af37" stroke-width="1"/>
+    <text x="101" y="21" text-anchor="middle" fill="#f7de8a" font-size="12.5" font-weight="bold">١. GUCDÜVÂN (Buhara)</text>
+    <text x="101" y="38" text-anchor="middle" fill="#cfc8b8" font-size="11">Abdülhâlık Gucdüvânî (k.s.)</text>
+  </g>
+  <g transform="translate(275, 375)">
+    <rect width="202" height="48" rx="8" fill="#0e221c" stroke="#d4af37" stroke-width="1"/>
+    <text x="101" y="21" text-anchor="middle" fill="#f7de8a" font-size="12.5" font-weight="bold">٢. SEMMÂS (Râmîten)</text>
+    <text x="101" y="38" text-anchor="middle" fill="#cfc8b8" font-size="11">Muhammed Baba Semmâsî (k.s.)</text>
+  </g>
+  <g transform="translate(495, 375)">
+    <rect width="210" height="48" rx="8" fill="#4a121b" stroke="#f7de8a" stroke-width="1.4"/>
+    <text x="105" y="21" text-anchor="middle" fill="#f7de8a" font-size="12.5" font-weight="bold">٣. KASR-I ÂRİFÂN (Merkez)</text>
+    <text x="105" y="38" text-anchor="middle" fill="#ffffff" font-size="11">Şah-ı Nakşibend Hazretleri (k.s.)</text>
+  </g>
+  <g transform="translate(723, 375)">
+    <rect width="202" height="48" rx="8" fill="#0e221c" stroke="#d4af37" stroke-width="1"/>
+    <text x="101" y="21" text-anchor="middle" fill="#f7de8a" font-size="12.5" font-weight="bold">٤. SÛHÂRÎ (Kâgân)</text>
+    <text x="101" y="38" text-anchor="middle" fill="#cfc8b8" font-size="11">Seyyid Emîr Külâl (k.s.)</text>
+  </g>
+  <g transform="translate(943, 375)">
+    <rect width="202" height="48" rx="8" fill="#0e221c" stroke="#d4af37" stroke-width="1"/>
+    <text x="101" y="21" text-anchor="middle" fill="#f7de8a" font-size="12.5" font-weight="bold">٥. SEMERKANT</text>
+    <text x="101" y="38" text-anchor="middle" fill="#cfc8b8" font-size="11">Hâce Ubeydullah Ahrâr (k.s.)</text>
+  </g>
+</svg>

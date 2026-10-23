@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgS" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08120f"/>
+      <stop offset="100%" stop-color="#132922"/>
+    </linearGradient>
+    <linearGradient id="goldS" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b8860b"/>
+      <stop offset="50%" stop-color="#f7de8a"/>
+      <stop offset="100%" stop-color="#c59b27"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="18" fill="url(#bgS)"/>
+  <rect x="16" y="16" width="1168" height="648" rx="14" fill="none" stroke="url(#goldS)" stroke-width="2"/>
+
+  <text x="600" y="56" text-anchor="middle" fill="url(#goldS)" font-family="Georgia, serif" font-size="30" font-weight="bold">
+    SİLSİLE-İ ZEHEB (ALTIN SİLSİLE) ŞEMASI
+  </text>
+  <text x="600" y="84" text-anchor="middle" fill="#cfc8b8" font-family="Georgia, serif" font-size="15" font-style="italic">
+    Sıddîkî ve Alevî/Hüseynî Nehirlerin Birleşimi, Hâcegân Pîrleri ve Şah-ı Nakşibend Sonrası Kollar
+  </text>
+
+  <!-- Top Root: Prophet Muhammad (s.a.v.) -->
+  <g transform="translate(420, 105)">
+    <rect width="360" height="54" rx="27" fill="#1b4d3e" stroke="#f7de8a" stroke-width="2.2"/>
+    <text x="180" y="25" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="17" font-weight="bold">
+      ١. HZ. MUHAMMED MUSTAFA (S.A.V.)
+    </text>
+    <text x="180" y="44" text-anchor="middle" fill="#e8e2d5" font-size="12">Hâtemü'l-Enbiyâ • Medîne-i Münevvere</text>
+  </g>
+
+  <!-- Branches to Abu Bakr and Ali -->
+  <path d="M520 159 L310 195" stroke="#d4af37" stroke-width="2" fill="none"/>
+  <path d="M680 159 L890 195" stroke="#d4af37" stroke-width="2" fill="none"/>
+
+  <!-- Left Branch: Siddiqi -->
+  <g transform="translate(120, 195)">
+    <rect width="380" height="64" rx="10" fill="#122720" stroke="#d4af37" stroke-width="1.4"/>
+    <text x="190" y="25" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="15" font-weight="bold">
+      SIDDÎKÎ KOL (Hafî Zikir &amp; Sohbet Mirası)
+    </text>
+    <text x="190" y="47" text-anchor="middle" fill="#d8d2c5" font-size="12.5">
+      Hz. Ebû Bekir es-Sıddîk (r.a.) → Selmân-ı Fârisî → Kâsım b. Muhammed
+    </text>
+  </g>
+
+  <!-- Right Branch: Alawi / Husayni -->
+  <g transform="translate(700, 195)">
+    <rect width="380" height="64" rx="10" fill="#122720" stroke="#d4af37" stroke-width="1.4"/>
+    <text x="190" y="25" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="15" font-weight="bold">
+      ALEVÎ / HÜSEYNÎ KOL (Ehl-i Beyt &amp; Seyyidlik)
+    </text>
+    <text x="190" y="47" text-anchor="middle" fill="#d8d2c5" font-size="12.5">
+      Hz. Ali el-Murtazâ (r.a.) → Hz. Hüseyin → Zeynelâbidîn → M. Bâkır
+    </text>
+  </g>
+
+  <!-- Converge to Imam Jafar al-Sadiq -->
+  <path d="M310 259 L520 295" stroke="#d4af37" stroke-width="2" fill="none"/>
+  <path d="M890 259 L680 295" stroke="#d4af37" stroke-width="2" fill="none"/>
+
+  <g transform="translate(380, 295)">
+    <rect width="440" height="52" rx="12" fill="#18382e" stroke="#f7de8a" stroke-width="1.8"/>
+    <text x="220" y="23" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="16" font-weight="bold">
+      ٥. İMAM CAFER-İ SÂDIK (K.S.) — "Mecmau'l-Bahreyn"
+    </text>
+    <text x="220" y="42" text-anchor="middle" fill="#e6e1d6" font-size="12">İki Denizin (Sıddîkî ve Alevî Nehirlerin) Birleştiği Halka</text>
+  </g>
+
+  <line x1="600" y1="347" x2="600" y2="375" stroke="#d4af37" stroke-width="2"/>
+
+  <!-- Tayfuriyye & Hacegan -->
+  <g transform="translate(110, 375)">
+    <rect width="980" height="68" rx="12" fill="#122720" stroke="#d4af37" stroke-width="1.4"/>
+    <text x="490" y="25" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="15" font-weight="bold">
+      TAYFÛRİYYE VE HÂCEGÂN PİRLERİ (6 – 15. HALKALAR)
+    </text>
+    <text x="490" y="48" text-anchor="middle" fill="#d8d2c5" font-size="13">
+      Bâyezîd-i Bistâmî → Ebü'l-Hasan Harakânî → Ebû Ali Fârmedî → Yûsuf Hemedânî → Abdülhâlık Gucdüvânî → Ârif Rîvegerî → Mahmûd İncîr Fağnevî → Ali Râmîtenî → Baba Semmâsî → Seyyid Emîr Külâl
+    </text>
+  </g>
+
+  <line x1="600" y1="443" x2="600" y2="472" stroke="#f7de8a" stroke-width="2.5"/>
+
+  <!-- Centerpiece: Şah-ı Nakşibend -->
+  <g transform="translate(320, 472)">
+    <rect width="560" height="68" rx="16" fill="#5a1220" stroke="#f7de8a" stroke-width="2.5"/>
+    <text x="280" y="28" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="20" font-weight="bold">
+      ١٦. ŞAH-I NAKŞİBEND MUHAMMED BAHAÜDDİN (K.S.)
+    </text>
+    <text x="280" y="51" text-anchor="middle" fill="#ffffff" font-size="13">
+      Üveysî-i Hüseynî-i Buhârî • Kasr-ı Ârifân (718/1318 – 791/1389)
+    </text>
+  </g>
+
+  <!-- 4 Caliphs and Later Branches -->
+  <path d="M460 540 L210 578" stroke="#d4af37" stroke-width="1.8" fill="none"/>
+  <path d="M550 540 L470 578" stroke="#d4af37" stroke-width="1.8" fill="none"/>
+  <path d="M650 540 L730 578" stroke="#d4af37" stroke-width="1.8" fill="none"/>
+  <path d="M740 540 L990 578" stroke="#d4af37" stroke-width="1.8" fill="none"/>
+
+  <g transform="translate(80, 578)">
+    <rect width="245" height="64" rx="10" fill="#132a23" stroke="#d4af37" stroke-width="1.3"/>
+    <text x="122" y="25" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="15" font-weight="bold">1. Alaaddin Attâr (k.s.)</text>
+    <text x="122" y="45" text-anchor="middle" fill="#cfc8b8" font-size="12">Damadı &amp; Baş Halifesi (v. 1400)</text>
+  </g>
+
+  <g transform="translate(345, 578)">
+    <rect width="245" height="64" rx="10" fill="#132a23" stroke="#d4af37" stroke-width="1.3"/>
+    <text x="122" y="25" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="15" font-weight="bold">2. Yakûb-i Çerhî (k.s.)</text>
+    <text x="122" y="45" text-anchor="middle" fill="#cfc8b8" font-size="12">Hadis Âlimi &amp; Silsile Halkası</text>
+  </g>
+
+  <g transform="translate(610, 578)">
+    <rect width="245" height="64" rx="10" fill="#132a23" stroke="#d4af37" stroke-width="1.3"/>
+    <text x="122" y="25" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="15" font-weight="bold">3. Ubeydullah Ahrâr (k.s.)</text>
+    <text x="122" y="45" text-anchor="middle" fill="#cfc8b8" font-size="12">Ahrâriyye → Müceddidiyye → Hâlidiyye</text>
+  </g>
+
+  <g transform="translate(875, 578)">
+    <rect width="245" height="64" rx="10" fill="#132a23" stroke="#d4af37" stroke-width="1.3"/>
+    <text x="122" y="25" text-anchor="middle" fill="#f7de8a" font-family="Georgia, serif" font-size="15" font-weight="bold">4. Muhammed Pârsâ (k.s.)</text>
+    <text x="122" y="45" text-anchor="middle" fill="#cfc8b8" font-size="12">Risâle-i Kudsiyye &amp; Faslül-Hitâb</text>
+  </g>
+</svg>
